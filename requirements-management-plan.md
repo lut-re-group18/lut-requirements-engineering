@@ -19,15 +19,18 @@ Please check details about version management from chapter [3.1.1](#311-version-
   - [Table of Contents](#table-of-contents)
   - [1. Introduction](#1-introduction)
     - [1.1 Purpose of this document](#11-purpose-of-this-document)
-  - [2. Requirements Management](#2-requirements-management)
+  - [2. Requirements Management overview](#2-requirements-management-overview)
     - [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces)
     - [2.2 Processes and techniques](#22-processes-and-techniques)
-  - [3. Requirements Management Overview](#3-requirements-management-overview)
+  - [3. Requirements Management](#3-requirements-management)
     - [3.1 Change management](#31-change-management)
+      - [3.1.1 Version management](#311-version-management)
+      - [3.1.2 Change management process](#312-change-management-process)
   - [Appendix A: References](#appendix-a-references)
   - [Appendix B: Key Terms](#appendix-b-key-terms)
   - [Appendix C: Requirements Definition Template](#appendix-c-requirements-definition-template)
   - [Appendix D: Requirements Traceability Template](#appendix-d-requirements-traceability-template)
+  - [Appendix E: Collaborators](#appendix-e-collaborators)
 
 
 ## 1. Introduction
@@ -39,7 +42,7 @@ Please check details about version management from chapter [3.1.1](#311-version-
 
 > The Requirements Management Plan is created during the Planning Phase of the project. Its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan.
 
-## 2. Requirements Management
+## 2. Requirements Management overview
 
 ### 2.1 Organization, responsibilities, interfaces
 
@@ -57,7 +60,30 @@ Roles and responsibilities are described in the table below in no particular ord
 
 ### 2.2 Processes and techniques
 
-## 3. Requirements Management Overview
+| **Requirements Activity** | **Description** | **Responsibles** | **Status** |
+|-----------------------|----------|----------|--------|
+| Elicitation activities | Questionaire to client representatives | | Done |
+| Requirements management | Decision about management process | JT | Waiting comments |
+| Requirements analysis | | | | |
+| Requirements specification | | | | |
+| Requirements validation | | | | |
+| Modeling activities | | | | |
+| Requirements traceability | | | | |
+| Requirements verification | | | | |
+| Final deliverables | Getting ready to submit final work  | | | |
+
+
+
+## 3. Requirements Management
+
+| **Activity** | **Plan** |
+|--------------|----------|
+| **Determine Requirements Attributes**|
+| Requirement facts<br />(unique number, date created,<br />source, business rules, etc.) | Lorem ipsum |
+| Traceability facts<br />(what to trace to: business objectives,<br />project objectives, design artifacts, testing, etc.) | Lorem ipsum |
+| Management facts<br />(priority, version / release,<br />status, approval, comments, etc.) | Lorem ipsum |
+| **Prioritize Requirements** |
+| Develop prioritization process | Lorem ipsum |
 
 ### 3.1 Change management
 
@@ -74,7 +100,7 @@ Docs are available for public access and do not inlcude personal information. De
 
 TODO: Decide how to handle changes to the requirements.
 
-Docs are available for public access and do not inlcude personal information. Deliverables for the course are generated in PDF format with tools in GitHib Actions.
+- Maybe we can use GitHub issues to track changes and use pull requests to approve them?
 
 ## Appendix A: References
 
@@ -83,3 +109,5 @@ Docs are available for public access and do not inlcude personal information. De
 ## Appendix C: Requirements Definition Template
 
 ## Appendix D: Requirements Traceability Template
+
+## Appendix E: Collaborators
