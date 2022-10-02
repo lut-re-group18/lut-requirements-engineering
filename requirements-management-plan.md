@@ -42,6 +42,7 @@ Document version history is maintained in the table below. The version number is
 
 ### 3.1 Change management
 
+#### 3.1.1 Version management
 Change management and the process to update this document is based on version control system Git. The document is stored in the repository and the changes are tracked in the version history. The document is updated by the requirements engineering team and the changes are approved using pull requests. Required pull request reviewer is a role defined in the chapter [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces).
 
 This and other project documentation can be found in the [GitHub repository](https://github.com/joniturunen/lut-requirements-engineering) in markdown language. Document 
