@@ -56,7 +56,7 @@ Roles and responsibilities are described in the table below in no particular ord
 | M*** R*** | |  |
 | A*** F*** | |  |
 | S*** T*** | |  |
-| Joni Turunen | | |
+| J*** T*** | | |
 
 ### 2.2 Processes and techniques
 
