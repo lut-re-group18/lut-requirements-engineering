@@ -19,11 +19,9 @@ jobs:
         id: files_list
         run: |
           mkdir output  # create output dir
-          # this will also include README.md
-          echo "::set-output name=files::$(printf '"%s" ' *.md)"
-      - uses: docker://pandoc/latex:2.9
+      - uses: docker://pandoc/latex:2.19
         with:
-          args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
+          args: README.md -o outfile.pdf
       - uses: actions/upload-artifact@master
         with:
           name: output
@@ -42,5 +40,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: output/result.pdf
-          tag_name: v${{ github.run_number }}-${{ github.ref }}
-          name: Release V${{ github.run_number }}-${{ github.ref }}
+          tag_name: v${{ github.run_number }}-${{ github.sha }}
+          name: Release V${{ github.run_number }}
