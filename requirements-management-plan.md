@@ -32,13 +32,15 @@ Please check details about version management from chapter [3.1.1](#311-version-
   - [Appendix D: Requirements Traceability Template](#appendix-d-requirements-traceability-template)
   - [Appendix E: Collaborators](#appendix-e-collaborators)
 
+---
+
 
 ## 1. Introduction
 
 ### 1.1 Purpose of this document
 Purpose of this document is to define the requirements management process and tools used in the project. This document is created during the planning phase of the project and its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan. Plan is iterated during the project and updated as needed.
 
-
+---
 ## 2. Requirements Management overview
 
 This chapter describes the requirements management process and tools used in the project. It also describes the roles and responsibilities of the project team members.
@@ -47,33 +49,41 @@ This chapter describes the requirements management process and tools used in the
 
 > Describe here who is going to be responsible for performing the various activities described in the requirements workflows defined later in this document.
 
-Roles and responsibilities are described in the table below in no particular order.
+Roles and responsibilities are described in the tables below in no particular order.
 
-| Name | Requirements Management Role | Responsibilities |
-|------|------------------------------|------------------|
-| N*** H*** | |  |
-| M*** R*** | |  |
-| A*** F*** | |  |
-| S*** T*** | |  |
-| J*** T*** | | |
+| Name | Requirements Management Role |
+|------|------------------------------|
+| N*** H*** |                         |
+| M*** R*** |                         |
+| A*** F*** |                         |
+| S*** T*** |                         |
+| J*** T*** |                         |
+
+| Role | Responsibilities |
+|------|------------------|
+|      |                  |
+|      |                  |
+|      |                  |
+
 
 ### 2.2 Processes and techniques
 
 Following table describes the requirements engineering activities and the responsible team members for each activity.
 
 | **Requirements Activity** | **Description** | **Responsibles** | **Status** |
-|-----------------------|----------|----------|--------|
+|---------------------------|-----------------|------------------|------------|
 | Elicitation activities | Questionaire to client representatives | | Done |
 | Requirements management | Decision about management process | JT | Waiting comments |
-| Requirements analysis | | | | |
-| Requirements specification | | | | |
-| Requirements validation | | | | |
+| Requirements analysis | Identifying business critical and<br />architectural requirements | Started to draft | RE Team        | Started |
+| Requirements specification| |                  |            |
+| Requirements validation   |                 |                  |            |
 | Modeling activities | | | | |
-| Requirements traceability | | | | |
+| Requirements traceability | Requirements need to be grounded<br /> in business strategy | | | |
 | Requirements verification | | | | |
 | Final deliverables | Getting ready to submit final work  | | | |
 
 
+---
 
 ## 3. Requirements Management
 
@@ -104,6 +114,8 @@ Docs are available for public access and do not inlcude personal information. De
 TODO: Decide how to handle changes to the requirements.
 
 - Maybe we can use GitHub issues to track changes and use pull requests to approve them?
+
+---
 
 ## Appendix A: References
 
