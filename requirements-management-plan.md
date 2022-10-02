@@ -36,13 +36,12 @@ Please check details about version management from chapter [3.1.1](#311-version-
 ## 1. Introduction
 
 ### 1.1 Purpose of this document
-> *Provide the purpose of the Requirements Management Plan. This document should be tailored to fit a particular project’s needs*
+Purpose of this document is to define the requirements management process and tools used in the project. This document is created during the planning phase of the project and its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan. Plan is iterated during the project and updated as needed.
 
-> The Requirements Management plan is used to document the necessary information required to effectively manage project requirements from definition, through traceability, to delivery.
-
-> The Requirements Management Plan is created during the Planning Phase of the project. Its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan.
 
 ## 2. Requirements Management overview
+
+This chapter describes the requirements management process and tools used in the project. It also describes the roles and responsibilities of the project team members.
 
 ### 2.1 Organization, responsibilities, interfaces
 
@@ -59,6 +58,8 @@ Roles and responsibilities are described in the table below in no particular ord
 | J*** T*** | | |
 
 ### 2.2 Processes and techniques
+
+Following table describes the requirements engineering activities and the responsible team members for each activity.
 
 | **Requirements Activity** | **Description** | **Responsibles** | **Status** |
 |-----------------------|----------|----------|--------|
@@ -87,6 +88,8 @@ Roles and responsibilities are described in the table below in no particular ord
 
 ### 3.1 Change management
 
+In this section, the change management process and tools used in the project are described.
+
 #### 3.1.1 Version management
 Change management and the process to update this document is based on version control system Git. The document is stored in the repository and the changes are tracked in the version history. The document is updated by the requirements engineering team and the changes are approved using pull requests. Required pull request reviewer is a role defined in the chapter [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces).
 
@@ -104,10 +107,17 @@ TODO: Decide how to handle changes to the requirements.
 
 ## Appendix A: References
 
+> List all references used in this document.
+
 ## Appendix B: Key Terms
+
+> List all key terms used in this document.
 
 ## Appendix C: Requirements Definition Template
 
 ## Appendix D: Requirements Traceability Template
 
 ## Appendix E: Collaborators
+
+> List all collaborators who have contributed to this document.
+
