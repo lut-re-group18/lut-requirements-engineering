@@ -43,6 +43,18 @@ Please check details about version management from chapter [3.1.1](#311-version-
 
 ### 2.1 Organization, responsibilities, interfaces
 
+> Describe here who is going to be responsible for performing the various activities described in the requirements workflows defined later in this document.
+
+Roles and responsibilities are described in the table below in no particular order.
+
+| Name | Requirements Management Role | Responsibilities |
+|------|------------------------------|------------------|
+| N*** H*** | |  |
+| M*** R*** | |  |
+| A*** F*** | |  |
+| S*** T*** | |  |
+| Joni Turunen | | |
+
 ### 2.2 Processes and techniques
 
 ## 3. Requirements Management Overview
