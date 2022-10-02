@@ -33,6 +33,11 @@ Please check details about version management from chapter [3.1.1](#311-version-
 ## 1. Introduction
 
 ### 1.1 Purpose of this document
+> *Provide the purpose of the Requirements Management Plan. This document should be tailored to fit a particular project’s needs*
+
+> The Requirements Management plan is used to document the necessary information required to effectively manage project requirements from definition, through traceability, to delivery.
+
+> The Requirements Management Plan is created during the Planning Phase of the project. Its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan.
 
 ## 2. Requirements Management
 
