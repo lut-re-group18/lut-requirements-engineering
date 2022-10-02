@@ -1,10 +1,6 @@
 # MeetCall - Online meeting platform
 ## Requirements Management Plan
 
-> Version 0.1
-> 02.10.2022
-
-
 ## Version history
 
 Document version history is maintained in the table below. The version number is incremented by 0.1 for each new version of the document.
@@ -48,7 +44,9 @@ Document version history is maintained in the table below. The version number is
 
 Change management and the process to update this document is based on version control system Git. The document is stored in the repository and the changes are tracked in the version history. The document is updated by the requirements engineering team and the changes are approved using pull requests. Required pull request reviewer is a role defined in the chapter [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces).
 
-Document can be found in the [GitHub repository](https://github.com/joniturunen/lut-requirements-engineering)
+This and other project documentation can be found in the [GitHub repository](https://github.com/joniturunen/lut-requirements-engineering) in markdown language. Document 
+
+Docs are available for public access and do not inlcude personal information. Deliverables for the course are generated in PDF format with tools in GitHib Actions.
 
 ## Appendix A: References
 
