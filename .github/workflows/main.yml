@@ -22,9 +22,8 @@ jobs:
           args: >-
             --standalone
             --output=output/outfile.pdf
-            --pdf-engine=xelatex
             README.md
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v2
         with:
           name: output
           path: output
@@ -41,6 +40,6 @@ jobs:
       - name: 'Create GitHub Release'
         uses: softprops/action-gh-release@v1
         with:
-          files: output/result.pdf
+          files: ./**/*.pdf
           tag_name: v${{ github.run_number }}-${{ github.sha }}
           name: Release V${{ github.run_number }}
