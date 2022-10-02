@@ -44,11 +44,10 @@ jobs:
           release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
-      - uses: actions/upload-release-asset@v1
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: output/result.pdf
+          tag_name: v${{ github.run_number }}-${{ github.ref }}
+          name: Release V${{ github.run_number }}-${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./output/result.pdf
-          asset_name: result.pdf
-          asset_content_type: application/pdf
