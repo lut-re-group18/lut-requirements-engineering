@@ -16,12 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: create file list
-        id: files_list
-        run: |
-          mkdir output  # create output dir
+        run: mkdir output
       - uses: docker://pandoc/latex:2.19
         with:
-          args: README.md -o output/outfile.pdf
+          args: >-
+            --standalone
+            --output=output/outfile.pdf
+            --pdf-engine=xelatex
+            README.md
       - uses: actions/upload-artifact@master
         with:
           name: output
