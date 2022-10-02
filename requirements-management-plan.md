@@ -9,6 +9,8 @@ Document version history is maintained in the table below. The version number is
 |-----------|----------------|---------------|-------------|---------------|-------------|
 | 0.1 | Joni Turunen | 02.10.2022 | | | Initial version, propsal of techniques and tools |
 
+Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
+
 ## Table of Contents
 
 - [MeetCall - Online meeting platform](#meetcall---online-meeting-platform)
