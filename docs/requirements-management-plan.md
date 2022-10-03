@@ -76,7 +76,7 @@ Following table describes the requirements engineering activities and the respon
 |---------------------------|-----------------|------------------|------------|
 | Elicitation activities | Questionaire to client | | Done |
 | Requirements management | Decision about management process | JT | Waiting comments |
-| Requirements analysis | Identifying ASRs | Started to draft | RE Team | Started |
+| Requirements analysis | Identifying ASRs | RE Team | Started |
 | Requirements specification| | | |
 | Requirements validation   | | | |
 | Modeling activities | | | | |
