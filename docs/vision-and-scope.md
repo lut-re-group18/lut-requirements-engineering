@@ -1,12 +1,10 @@
 # Vision and Scope Document
 
-
 ## Prepared for MeetCall - Group 7 Ltd.
-
 
 > Prepared by Axxx Fxxx Nxxx Hxxx, Jxxx Txxx, Sxxx Txxx, Mxxx Rxxx
 
-> Group 18 | 03.10.2022
+> Group 18 - 03.10.2022
 
 ## Table of Contents
 
@@ -243,7 +241,7 @@ Context diagram provides a high-level view of the project and the
 boundaries between existing core solutions and the external systems used
 to achieve the required capabilities.
 
-![Context diagram](MeetCall-C4-Diagrams-Context.png)
+![c4-context-diagram.png](https://github.com/joniturunen/lut-requirements-engineering/blob/main/docs/imgs/c4-context-diagram.png)
 
 ## Stakeholder Profiles
 
