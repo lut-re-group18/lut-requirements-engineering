@@ -4,10 +4,9 @@
 ## Prepared for MeetCall - Group 7 Ltd.
 
 
-> Prepared by Aleksanteri Fagerholm, Nico Hartto, Joni Turunen, Simachew
-Tibebu, Mika Raudaskoski
+> Prepared by Axxx Fxxx Nxxx Hxxx, Jxxx Txxx, Sxxx Txxx, Mxxx Rxxx
 
-> Group 18 | 02.10.2022
+> Group 18 | 03.10.2022
 
 ## Table of Contents
 
