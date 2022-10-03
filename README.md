@@ -13,7 +13,7 @@
 
 How can I contribute to this project?
 
-- [Open issues](https://github.com/joniturunen/lut-requirements-engineering/issues) to notify of errors in project, propose new features, or other improvements.
+- [Open issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues) to notify of errors in project, propose new features, or other improvements.
 - Fork the project, make changes, and submit a pull request!
   - *This is the way.*
 
