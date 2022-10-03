@@ -18,7 +18,7 @@ jobs:
         id: filelist
         run: |
           mkdir output
-          echo "::set-output name=files::$(find .docs/ -name '*.md')"
+          echo "::set-output name=files::$(printf '"%s" ' ./docs/*.md)"
 
       - uses: docker://pandoc/latex:2.19
         with:
@@ -43,10 +43,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: output
-          
+
       - name: 'Create GitHub Release'
         uses: softprops/action-gh-release@v1
         with:
-          files: ./**/*.pdf
+          files: ./output/*.pdf
           tag_name: v${{ github.run_number }}-${{ github.sha }}
           name: Release V${{ github.run_number }}
