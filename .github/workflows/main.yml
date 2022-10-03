@@ -49,7 +49,7 @@ jobs:
       - name: 'Check output PDFs in to string & pass to next step'
         id: check_output
         run: |
-          echo "::set-output name=pdfs::$(tree)"
+          echo "::set-output name=pdfs::$(ls *.pdf)"
 
       - name: 'Create GitHub Release'
         uses: softprops/action-gh-release@v1
