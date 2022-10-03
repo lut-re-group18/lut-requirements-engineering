@@ -13,18 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: create file list
-        run: mkdir output
+
+      - name: create filelist
+        id: filelist
+        run: |
+          mkdir output
+          echo "::set-output name=files::$(find .docs/ -name '*.md')"
+
       - uses: docker://pandoc/latex:2.19
         with:
-          args: >-
-            --standalone
-            --output=output/outfile.pdf
-            README.md
+          args: --output=output/result.pdf ${{ steps.filelist.outputs.files }}
+
       - uses: actions/upload-artifact@v2
         with:
           name: output
           path: output
+
+      - name: Check output
+        run: |
+          ls -l output
+
   release-content:
     runs-on: ubuntu-latest
     needs: [ convert_via_pandoc ]
@@ -35,6 +43,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: output
+          
       - name: 'Create GitHub Release'
         uses: softprops/action-gh-release@v1
         with:
