@@ -1,5 +1,9 @@
 # Use Case Specifications template
 
+> Template customised for the project from the course material template.
+
+Just copy this doc and rename it to `ucs-<use-case-name>.md` and fill in the details.
+
 ## Use Case Identification and History
 
 | **Use Case ID**         | PROJ.UC.1.1.1 (Assign a unique name to each use case)                |
