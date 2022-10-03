@@ -18,8 +18,7 @@ jobs:
         id: filelist
         run: |
           mkdir output
-          cd docs
-          echo "::set-output name=files::$(printf '"%s" ' *.md)"
+          echo "::set-output name=files::$(printf '"%s" ' ./docs/*.md)"
 
       - uses: docker://pandoc/latex:2.19
         with:
