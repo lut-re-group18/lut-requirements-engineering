@@ -34,7 +34,7 @@ jobs:
 
       - name: Check output
         run: |
-          ls -l output
+          tree output
 
   release-content:
     runs-on: ubuntu-latest
