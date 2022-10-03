@@ -1,17 +1,23 @@
-# lut-requirements-engineering
-Repository foor school project in requirements engineering
+# Requirements Engineering (Group18)
+
+> This is the repository for school project of Group18 in Requirement Engineering course [@LUT](https://www.lut.fi).
 
 ## Documents
 
-- [Requirements Management Plan](requirements-management-plan.md)
-- [Vision & Scope](vision-and-scope.md)
+- [Requirements Management Plan](docs/requirements-management-plan.md)
+- [Vision & Scope](docs/vision-and-scope.md)
 - [Home of this project](README.md)
 
 
 ## How to contribute
 
+How can I contribute to this project?
 
-## Testing md to pdf conversion
+- [Open issues](https://github.com/joniturunen/lut-requirements-engineering/issues) to notify of errors in project, propose new features, or other improvements.
+- Fork the project, make changes, and submit a pull request!
+  - *This is the way.*
+
+## Test MD to PDF conversion (localy)
 
 You need Docker installed on your machine. Then run the following command:
 
