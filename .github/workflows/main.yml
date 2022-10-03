@@ -46,7 +46,7 @@ jobs:
         with:
           name: output
       
-      - name: 'Check output PDFs in to string & pass to next step'
+      - name: 'Add output PDFs in to string & pass to next step'
         id: check_output
         run: |
           echo "::set-output name=pdfs::$(ls *.pdf)"
@@ -54,6 +54,6 @@ jobs:
       - name: 'Create GitHub Release'
         uses: softprops/action-gh-release@v1
         with:
-          files: .
+          files: *.pdf
           tag_name: v${{ github.run_number }}-${{ github.sha }}
           name: Release V${{ github.run_number }}
