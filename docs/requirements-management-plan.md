@@ -1,21 +1,23 @@
-# MeetCall - Online meeting platform
-## Requirements Management Plan
+# Requirements management plan (MeetCall)
 
-## Version history
+> Document authors:
+> Nxxx Hxxx, Mxxx Rxxx, Axxx Fxxx, Sxxx Txxx, Jxxx Txxx
 
-Document version history is maintained in the table below. The version number is incremented by 0.1 for each new version of the document.
+## Versioning
 
-| Version # | Implemented by | Revision Date | Approved by | Approval Date | Description |
-|-----------|----------------|---------------|-------------|---------------|-------------|
-| 0.1 | JT | 02.10.2022 | | | Initial version, propsal of techniques and tools |
+Document version history is maintained in the table below. The version number is incremented by for each new version of the document.
+
+| Version | Implemented by | Status |
+|---|---|---|
+| 0.1 | AF,NH et al. | Draft |
+| 0.2 | JT | Converted to MD | 
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
 
 ## Table of Contents
 
-- [MeetCall - Online meeting platform](#meetcall---online-meeting-platform)
-  - [Requirements Management Plan](#requirements-management-plan)
-  - [Version history](#version-history)
+- [Requirements management plan (MeetCall)](#requirements-management-plan-meetcall)
+  - [Versioning](#versioning)
   - [Table of Contents](#table-of-contents)
   - [1. Introduction](#1-introduction)
     - [1.1 Purpose of this document](#11-purpose-of-this-document)
@@ -34,13 +36,13 @@ Please check details about version management from chapter [3.1.1](#311-version-
 
 ---
 
-
 ## 1. Introduction
 
 ### 1.1 Purpose of this document
 Purpose of this document is to define the requirements management process and tools used in the project. This document is created during the planning phase of the project and its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan. Plan is iterated during the project and updated as needed.
 
 ---
+
 ## 2. Requirements Management overview
 
 This chapter describes the requirements management process and tools used in the project. It also describes the roles and responsibilities of the project team members.
@@ -52,18 +54,18 @@ This chapter describes the requirements management process and tools used in the
 Roles and responsibilities are described in the tables below in no particular order.
 
 | Name | Requirements Management Role |
-|------|------------------------------|
-| N*** H*** |                         |
-| M*** R*** |                         |
-| A*** F*** |                         |
-| S*** T*** |                         |
-| J*** T*** |                         |
+|:---|:---|
+| N*** H*** | |
+| M*** R*** | |
+| A*** F*** | |
+| S*** T*** | |
+| J*** T*** | |
 
 | Role | Responsibilities |
-|------|------------------|
-|      |                  |
-|      |                  |
-|      |                  |
+|:---|---|
+| | |
+| | |
+| | |
 
 
 ### 2.2 Processes and techniques
@@ -72,15 +74,15 @@ Following table describes the requirements engineering activities and the respon
 
 | **Requirements Activity** | **Description** | **Responsibles** | **Status** |
 |---------------------------|-----------------|------------------|------------|
-| Elicitation activities | Questionaire to client representatives | | Done |
+| Elicitation activities | Questionaire to client | | Done |
 | Requirements management | Decision about management process | JT | Waiting comments |
-| Requirements analysis | Identifying business critical and<br />architectural requirements | Started to draft | RE Team        | Started |
-| Requirements specification| |                  |            |
-| Requirements validation   |                 |                  |            |
+| Requirements analysis | Identifying ASRs | Started to draft | RE Team | Started |
+| Requirements specification| | | |
+| Requirements validation   | | | |
 | Modeling activities | | | | |
-| Requirements traceability | Requirements need to be grounded<br /> in business strategy | | | |
+| Requirements traceability | Reqs need to be grounded buss. | | | |
 | Requirements verification | | | | |
-| Final deliverables | Getting ready to submit final work  | | | |
+| Final deliverables | Submit final work  | | | |
 
 
 ---
@@ -88,11 +90,11 @@ Following table describes the requirements engineering activities and the respon
 ## 3. Requirements Management
 
 | **Activity** | **Plan** |
-|--------------|----------|
+|:---|:---|
 | **Determine Requirements Attributes**|
-| Requirement facts<br />(unique number, date created,<br />source, business rules, etc.) | Lorem ipsum |
-| Traceability facts<br />(what to trace to: business objectives,<br />project objectives, design artifacts, testing, etc.) | Lorem ipsum |
-| Management facts<br />(priority, version / release,<br />status, approval, comments, etc.) | Lorem ipsum |
+| Requirement facts (unique number, date created, source, business rules, etc.) | Lorem ipsum |
+| Traceability facts (what to trace to: business objectives, project objectives, design artifacts, testing, etc.) | Lorem ipsum |
+| Management facts (priority, version / release, status, approval, comments, etc.) | Lorem ipsum |
 | **Prioritize Requirements** |
 | Develop prioritization process | Lorem ipsum |
 
@@ -131,5 +133,5 @@ TODO: Decide how to handle changes to the requirements.
 
 ## Appendix E: Collaborators
 
-> List all collaborators who have contributed to this document.
+List all collaborators who have contributed to this document.
 
