@@ -241,7 +241,7 @@ Context diagram provides a high-level view of the project and the
 boundaries between existing core solutions and the external systems used
 to achieve the required capabilities.
 
-![c4-context-diagram.png](https://github.com/joniturunen/lut-requirements-engineering/blob/main/docs/imgs/c4-context-diagram.png)
+![c4-context-diagram.png](https://raw.githubusercontent.com/joniturunen/lut-requirements-engineering/main/docs/imgs/c4-context-diagram.png)
 
 ## Stakeholder Profiles
 
