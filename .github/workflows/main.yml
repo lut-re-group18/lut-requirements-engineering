@@ -45,10 +45,15 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: output
+      
+      - name: 'Check output PDFs in to string & pass to next step'
+        id: check_output
+        run: |
+          echo "::set-output name=pdfs::$(ls output/*.pdf)"
 
       - name: 'Create GitHub Release'
         uses: softprops/action-gh-release@v1
         with:
-          files: ./output/*.pdf
+          files: ${{ steps.check_output.outputs.pdfs }}
           tag_name: v${{ github.run_number }}-${{ github.sha }}
           name: Release V${{ github.run_number }}
