@@ -6,6 +6,7 @@
 
 - [Requirements Management Plan](docs/requirements-management-plan.md)
 - [Vision & Scope](docs/vision-and-scope.md)
+- [Use Case Docs](docs/use-cases.md)
 - [GitHub Repository of the Project](https://github.com/lut-re-group18/lut-requirements-engineering)
 
 
