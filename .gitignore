@@ -1,3 +1,6 @@
 .dccache
 *.pdf
 *.docx
+*.bkp
+*.dtmp
+

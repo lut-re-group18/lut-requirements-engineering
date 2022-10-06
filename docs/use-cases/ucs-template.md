@@ -2,7 +2,7 @@
 
 > Template customised for the project from the course material template.
 
-Just copy this doc and rename it to `ucs-<use-case-name>.md` and fill in the details.
+Just copy this doc and rename it to `ucs-<number>-<use-case-name>.md` and fill in the details.
 
 ## Use Case Identification and History
 
