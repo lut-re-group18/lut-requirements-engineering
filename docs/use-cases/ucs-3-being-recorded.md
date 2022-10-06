@@ -1,8 +1,6 @@
-# Use Case Specifications template
+# Use Case Specifications
 
-> Template customised for the project from the course material template.
-
-Just copy this doc and rename it to `ucs-<use-case-name>.md` and fill in the details.
+![ucs-3](rendered-diagrams/ucs-3.png)
 
 ## Use Case Identification and History
 
@@ -18,6 +16,7 @@ Just copy this doc and rename it to `ucs-<use-case-name>.md` and fill in the det
 | **Business Owner Name** |                                                                      |
 | **Trigger:**            | Meeting Host activates recording and system informs participants     |
 | **Frequency of Use:**   | Every time new recording is started				                     |
+
 
 ## Preconditions
 

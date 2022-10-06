@@ -1,4 +1,6 @@
-# Use Case Specifications template
+# Use Case Specifications
+
+![ucs-2](rendered-diagrams/ucs-2.png)
 
 
 ## Use Case Identification and History
