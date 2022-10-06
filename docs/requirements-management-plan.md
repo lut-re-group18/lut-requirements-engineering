@@ -14,6 +14,10 @@ Document version history is maintained in the table below. The version number is
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
 
+---
+
+TODO: Describe the rotating SRS process.
+
 ## Table of Contents
 
 - [Requirements management plan (MeetCall)](#requirements-management-plan-meetcall)
@@ -53,19 +57,22 @@ This chapter describes the requirements management process and tools used in the
 
 Roles and responsibilities are described in the tables below in no particular order.
 
-| Name | Requirements Management Role |
-|:---|:---|
-| N*** H*** | |
-| M*** R*** | |
-| A*** F*** | |
-| S*** T*** | |
-| J*** T*** | |
+| Name      | Requirements Management Role |
+|:----------|:--------|
+| N*** H*** | RE + CM |
+| M*** R*** | EL + RE |
+| A*** F*** | RE + SD |
+| S*** T*** | RE + QA |
+| J*** T*** | RE + PM |
 
-| Role | Responsibilities |
-|:---|---|
-| | |
-| | |
-| | |
+TODO: Explain abreviations.
+
+SD = System Designer
+RE = Requirements Engineer
+PM = Project Manager
+QA = Quality Assurance Lead
+CM = Change Manager
+EL = Elicitation Lead
 
 
 ### 2.2 Processes and techniques
@@ -74,9 +81,9 @@ Following table describes the requirements engineering activities and the respon
 
 | **Requirements Activity** | **Description** | **Responsibles** | **Status** |
 |---------------------------|-----------------|------------------|------------|
-| Elicitation activities | Questionaire to client | | Done |
-| Requirements management | Decision about management process | JT | Waiting comments |
-| Requirements analysis | Identifying ASRs | RE Team | Started |
+| Elicitation activities    | Questionaire to client | | Done |
+| Requirements management   | Decision about management process | JT | Waiting comments |
+| Requirements analysis     | Identifying ASRs | RE Team | Started |
 | Requirements specification| | | |
 | Requirements validation   | | | |
 | Modeling activities | | | | |
