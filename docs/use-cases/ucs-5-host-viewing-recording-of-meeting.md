@@ -56,11 +56,11 @@ n/a
 
 ## Special Requirements
 
-Transcoding is ready for the required format.
+Transcoding is ready for the required format. Videos can be stored/watched only as long as the GDPR regulates.
 
 ## Business rules
 
-n/a
+Recorded videos must be disclosed with the users and their premission need to be asked from users that they are recorded from.
 
 ## Other Notes (Assumptions, Issues, etc.)
 
