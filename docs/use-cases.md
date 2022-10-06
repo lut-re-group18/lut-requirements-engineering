@@ -41,7 +41,7 @@ us-19: As [a user persona], I want [to perform this action] so that [I can accom
 | us-1          | As a **user**, I want to be able to use my existing 3rd party authentication provider so that I can use my existing credentials to  in. | JT |
 | us-2          | As a **user**, I want to join meetings via calendar app so that I can join meetings without opening the app. | MR |
 | us-3          | As a **user**, I want to be automatically notified about recording of the meeting. | MR |
-
+| us-4          | As a **host**, I want to share my screen in the meetings.| JT |
 
 
 
