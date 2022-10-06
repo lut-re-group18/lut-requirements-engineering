@@ -4,7 +4,7 @@
 
 ## Use Case Identification and History
 
-| **Use Case ID**         | UCS-04                                                         |
+| **Use Case ID**         | ucs-5-host-viewing-recording-of-meeting.md                     |
 | ----------------------- | -------------------------------------------------------------- |
 | **Use Case Name**       | Meeting host viewing recorded meeting video                    |
 | **Related User Story**  |                                                                |
