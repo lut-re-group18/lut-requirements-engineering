@@ -4,7 +4,7 @@
 
 ## Use Case Identification and History
 
-| **Use Case ID**         | PROJ.UC.1.1.10          										     |
+| **Use Case ID**         | ucs-3-being-recorded.md      										 |
 |-------------------------|----------------------------------------------------------------------|
 | **Use Case Name**       | Participants being informed when they are being recorded			 |
 | **Related User Story**  |                                                                      |

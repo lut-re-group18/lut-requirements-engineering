@@ -4,7 +4,7 @@
 
 ## Use Case Identification and History
 
-| **Use Case ID**         | UCS-01                   										     |
+| **Use Case ID**         | ucs-1-login.md             										     |
 |-------------------------|----------------------------------------------------------------------|
 | **Use Case Name**       | Login to meetings via 3rd party authentication providers 			 |
 | **Related User Story**  | us-1                                                                 |
