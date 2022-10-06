@@ -41,6 +41,8 @@ us-19: As [a user persona], I want [to perform this action] so that [I can accom
 | us-3          | As a **user**, I want to be automatically notified about recording of the meeting.                                                     | MR     |
 | us-4          | As a **host**, I want to share my screen in the meetings.                                                                              | JT     |
 | us-5          | As a **host**, I want to view the recording from the meeting.                                                                          | NH, AF |
+| us-8          | As a **host**, I want to control a meeting participant's audio so that I can moderate the meeting. | ST |
+| us-9          | As a **host**, I want to control who I let in the meeting so that I can moderate the meeting. | ST |
 
 ### Use Case Specification
 
