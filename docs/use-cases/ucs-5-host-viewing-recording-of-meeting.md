@@ -9,9 +9,9 @@
 | **Use Case Name**       | Meeting host viewing recorded meeting video                    |
 | **Related User Story**  |                                                                |
 | **End Objective**       | View the recording afterwards, to recap what was said          |
-| **Creator & time**      | Nico Hartto 6.10.2022                                          |
+| **Creator & time**      | Nico Hartto, Aleksanteri Fagerholm 6.10.2022                   |
 | **Last Updater & time** |                                                                |
-| **Approver & time**     | Clint Westiron 4.10.2022                                       |
+| **Approver & time**     |                                                                |
 | **User/Actor**          | Meeting host                                                   |
 | **Business Owner Name** |                                                                |
 | **Trigger:**            | Host opens up the recorded meeting on his/hers app for viewing |
