@@ -1,15 +1,13 @@
-# Use Case Specifications template
+# Use Case Specifications
 
-> Template customised for the project from the course material template.
-
-Just copy this doc and rename it to `ucs-<use-case-name>.md` and fill in the details.
+> Add diagram here
 
 ## Use Case Identification and History
 
 | **Use Case ID**         | UCS-01                   										     |
 |-------------------------|----------------------------------------------------------------------|
 | **Use Case Name**       | Login to meetings via 3rd party authentication providers 			 |
-| **Related User Story**  |                                                                      |
+| **Related User Story**  | us-1                                                                 |
 | **End Objective**       | User logs in with existing credentials from 3rd party provider       |
 | **Creator & time**      | Joni Turunen 6.10.2022  	                                         |
 | **Last Updater & time** | 					                                                 |
