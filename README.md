@@ -18,7 +18,11 @@ How can I contribute to this project?
 - Fork the project, make changes, and submit a pull request!
   - *This is the way.*
 
-## Test MD to PDF conversion (localy)
+### Links to GitHub repositgory and the GitHub Pages
+
+- [GitHub Repository of the Project](https://github.com/lut-re-group18/lut-requirements-engineering/)
+- [GitHub Pages](https://lut-re-group18.github.io/lut-requirements-engineering/)
+### Test MD to PDF conversion (localy)
 
 You need Docker installed on your machine. Then run the following command:
 

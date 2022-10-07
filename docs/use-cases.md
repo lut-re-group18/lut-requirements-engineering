@@ -34,15 +34,17 @@ Template for user stories start with a identifier tag.These are listed below.
 us-19: As [a user persona], I want [to perform this action] so that [I can accomplish this goal].
 ```
 
+> Note that the table works as link list to Use Case Specifications (UCS).
+
 | User Story ID | User Story                                                                                                                             | Author |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| us-1          | As a **user**, I want to be able to use my existing 3rd party authentication provider so that I can use my existing credentials to in. | JT     |
-| us-2          | As a **user**, I want to join meetings via calendar app so that I can join meetings without opening the app.                           | MR     |
-| us-3          | As a **user**, I want to be automatically notified about recording of the meeting.                                                     | MR     |
-| us-4          | As a **host**, I want to share my screen in the meetings.                                                                              | JT     |
-| us-5          | As a **host**, I want to view the recording from the meeting.                                                                          | NH, AF |
-| us-8          | As a **host**, I want to control a meeting participant's audio so that I can moderate the meeting. | ST |
-| us-9          | As a **host**, I want to control who I let in the meeting so that I can moderate the meeting. | ST |
+| [us-1](use-cases/ucs-1-login.md)          | As a **user**, I want to be able to use my existing 3rd party authentication provider so that I can use my existing credentials to in. | JT     |
+| [us-2](use-cases/ucs-2-access-through-app.md)          | As a **user**, I want to join meetings via calendar app so that I can join meetings without opening the app.                           | MR     |
+| [us-3](use-cases/ucs-3-being-recorded.md)          | As a **user**, I want to be automatically notified about recording of the meeting.                                                     | MR     |
+| [us-4](use-cases/ucs-4-screensharing.md)         | As a **host**, I want to share my screen in the meetings, so that attendees can view my presentation.                                                                             | JT     |
+| [us-5](use-cases/ucs-5-host-viewing-recording-of-meeting.md)          | As a **host**, I want to view the recording from the meeting.                                                                          | NH, AF |
+| [us-8](use-cases/usc-8-host-control-participant-audio.md)          | As a **host**, I want to control a meeting participant's audio so that I can moderate the meeting. | ST |
+| [us-9](use-cases/usc-9-allow-participant-entry-to-meeting.md)          | As a **host**, I want to control who I let in the meeting so that I can moderate the meeting. | ST |
 
 ### Use Case Specification
 
