@@ -3,4 +3,4 @@
 *.docx
 *.bkp
 *.dtmp
-
+.DS_Store
