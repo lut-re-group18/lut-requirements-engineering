@@ -9,7 +9,6 @@
 - [Use Case Docs](docs/use-cases.md)
 - [GitHub Repository of the Project](https://github.com/lut-re-group18/lut-requirements-engineering)
 
-
 ## How to contribute
 
 How can I contribute to this project?
@@ -22,6 +21,7 @@ How can I contribute to this project?
 
 - [GitHub Repository of the Project](https://github.com/lut-re-group18/lut-requirements-engineering/)
 - [GitHub Pages](https://lut-re-group18.github.io/lut-requirements-engineering/)
+
 ### Test MD to PDF conversion (localy)
 
 You need Docker installed on your machine. Then run the following command:
@@ -30,6 +30,8 @@ You need Docker installed on your machine. Then run the following command:
 docker run --rm \
        --volume "$(pwd):/data" \
        --user $(id -u):$(id -g) \
-       pandoc/latex:2.19 --output=result.pdf \
-       "/data/docs/requirements-management-plan.md"
+       pandoc/latex:2.19 \
+        -V geometry:"top=3cm, bottom=3cm, left=2.5cm, right=2.5cm" \
+        --output=result.pdf \
+        "/data/docs/requirements-management-plan.md"
 ```
