@@ -24,6 +24,9 @@
 
 ## Use case specification template
 
+
+Use case specifications are written in markdown and stored in the `docs/use-cases` folder. The [template for the use case specification](./use-cases/ucs-template.md) is in the `docs/use-cases/ucs-template.md` file.
+
 ### Use Case Diagram
 
 ### User stories
