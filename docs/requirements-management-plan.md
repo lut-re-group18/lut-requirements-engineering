@@ -7,10 +7,13 @@
 
 Document version history is maintained in the table below. The version number is incremented by for each new version of the document.
 
-| Version | Implemented by | Status |
-|---|---|---|
-| 0.1 | AF,NH et al. | Draft |
-| 0.2 | JT | Converted to MD | 
+| Version | Implemented by | Status                               |
+|---------|----------------|--------------------------------------|
+| 0.1     | AF,NH et al.   | Draft                                |
+| 0.2     | JT             | Converted to MD                      | 
+| 0.3     | JT, et al.     | Added info about roles               |
+| 0.4     | JT             | Added info about process for SRS     |
+
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
 
