@@ -53,9 +53,9 @@ This chapter describes the requirements management process and tools used in the
 
 ### 2.1 Organization, responsibilities, interfaces
 
-> Describe here who is going to be responsible for performing the various activities described in the requirements workflows defined later in this document.
+Roles and responsibilities are described in the tables below in no particular order. All of the team members are assigned as requirements engineers. Tasks are done in rotation and iteratively. This helps to mitigate the risk of falling into 'wise man' trap where just one person is responsible for a particular task. While rotating tasks we facilitate knowledge transfer and ensure that all team members are familiar with all the deliverables.
 
-Roles and responsibilities are described in the tables below in no particular order.
+Work is shared between the team members in agile way where everyone takes responsibility for the whole project. However, there are a few roles that have become more pronounced in terms of responsibility areas. These roles are described in the table below and are assigned to the team members in the beginning of the project.
 
 | Name      | Requirements Management Role |
 |:----------|:--------|
@@ -65,15 +65,12 @@ Roles and responsibilities are described in the tables below in no particular or
 | S*** T*** | RE + QA |
 | J*** T*** | RE + PM |
 
-TODO: Explain abreviations.
-
 SD = System Designer
 RE = Requirements Engineer
 PM = Project Manager
 QA = Quality Assurance Lead
 CM = Change Manager
 EL = Elicitation Lead
-
 
 ### 2.2 Processes and techniques
 
