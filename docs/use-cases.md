@@ -54,11 +54,7 @@ Table of use cases are prioritized in the order of importance using the MoSCoW s
 
 ### Use Case Specification
 
-These will be seperate documents for each use case.
-
 Naming convention: `./use-cases/ucs-<number>-<use-case-name>.md` in the docs folder. For example `ucs-1-login.md`.
-
-[Template for the use case specification](./use-cases/ucs-template.md)
 
 ---
 
