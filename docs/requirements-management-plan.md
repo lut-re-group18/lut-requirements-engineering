@@ -96,14 +96,14 @@ Following table describes the requirements engineering activities and the respon
 
 ## 3. Requirements Management
 
-| **Activity** | **Plan** |
-|:---|:---|
-| **Determine Requirements Attributes**|
-| Requirement facts (unique number, date created, source, business rules, etc.) | Lorem ipsum |
-| Traceability facts (what to trace to: business objectives, project objectives, design artifacts, testing, etc.) | Lorem ipsum |
-| Management facts (priority, version / release, status, approval, comments, etc.) | Lorem ipsum |
-| **Prioritize Requirements** |
-| Develop prioritization process | Lorem ipsum |
+| **Activity**                                                                  | **Plan**                                   |
+|:------------------------------------------------------------------------------|:-------------------------------------------|
+| **Determine Requirements Attributes**                                                                                      |
+| Requirement facts (unique no., date created, source, business rules, etc.)    | Non-functional and functional requirements |
+| Traceability facts (What: bus.obj., proj. obj, dsgn., artf., test, etc.)      | Lorem ipsum                                |
+| Management facts (prio, ver./rel., status, approval, comments, etc.)          | Lorem ipsum                                |
+| **Prioritize Requirements**                                                                                                |
+| Develop prioritization process                                                | Lorem ipsum                                |
 
 ### 3.1 Change management
 
