@@ -33,13 +33,13 @@ TODO: Overall use case diagram for the project.
 
 ### User stories
 
-Template for user stories start with a identifier tag.These are listed below.
+Template for user stories start with a identifier tag followed by user role, 'I want' and 'so that' statements.
 
 ```markdown
 us-19: As [a user persona], I want [to perform this action] so that [I can accomplish this goal].
 ```
 
-> Note that the table works as link list to Use Case Specifications (UCS).
+Table of use cases are prioritized in the order of importance using the MoSCoW scale. The use case specifications are linked to the user stories in the table.
 
 | User Story ID                                                                         | User Story                                                                                                                             | Author |
 | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
