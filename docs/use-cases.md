@@ -4,6 +4,7 @@
 > Nxxx Hxxx, Mxxx Rxxx, Axxx Fxxx, Sxxx Txxx, Jxxx Txxx
 
 > Draft created 3.10.2022
+> Last updated 9.10.2022
 
 ---
 
@@ -24,36 +25,37 @@
 
 ## Use case specification template
 
+
+Use case specifications are written in markdown and stored in the `docs/use-cases` folder. The [template for the use case specification](./use-cases/ucs-template.md) is in the `docs/use-cases/ucs-template.md` file.
+
 ### Use Case Diagram
+
+TODO: Overall use case diagram for the project.
 
 ### User stories
 
-Template for user stories start with a identifier tag.These are listed below.
+Template for user stories start with a identifier tag followed by user role, 'I want' and 'so that' statements.
 
 ```markdown
 us-19: As [a user persona], I want [to perform this action] so that [I can accomplish this goal].
 ```
 
-> Note that the table works as link list to Use Case Specifications (UCS).
+Table of use cases are prioritized in the order of importance using the MoSCoW scale. The use case specifications are linked to the user stories in the table.
 
-| User Story ID                                                                         | User Story                                                                                                                             | Author |
-| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| [us-1](use-cases/ucs-1-login.md)                                                      | As a **user**, I want to be able to use my existing 3rd party authentication provider so that I can use my existing credentials to in. | JT     |
-| [us-2](use-cases/ucs-2-access-through-app.md)                                         | As a **user**, I want to join meetings via calendar app so that I can join meetings without opening the app.                           | MR     |
-| [us-3](use-cases/ucs-3-being-recorded.md)                                             | As a **user**, I want to be automatically notified about recording of the meeting.                                                     | MR     |
-| [us-4](use-cases/ucs-4-screensharing.md)                                              | As a **host**, I want to share my screen in the meetings, so that attendees can view my presentation.                                  | JT     |
-| [us-5](use-cases/ucs-5-host-viewing-recording-of-meeting.md)                          | As a **host**, I want to view the recording from the meeting.                                                                          | NH, AF |
-| [us-7](use-cases/usc-7-platform-provider-remove-recordings-after-retention-period.md) | As a **platform provider**, I want remove recordings after data retention period.                                                      | NH     |
-| [us-8](use-cases/usc-8-host-control-participant-audio.md)                             | As a **host**, I want to control a meeting participant's audio so that I can moderate the meeting.                                     | ST     |
-| [us-9](use-cases/usc-9-allow-participant-entry-to-meeting.md)                         | As a **host**, I want to control who I let in the meeting so that I can moderate the meeting.                                          | ST     |
+| #   | User Story ID                                                                         | User Story                                                                                                                             | Author | MSCW   | 
+| --- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------ |
+| 01  | [us-2](use-cases/ucs-2-access-through-app.md)                                         | As a **user**, I want to join meetings via calendar app so that I can join meetings without opening the app.                           | MR     | Must   |
+| 02  | [us-1](use-cases/ucs-1-login.md)                                                      | As a **user**, I want to be able to use my existing 3rd party authentication provider so that I can use my existing credentials to in. | JT     | Must   |
+| 03  | [us-9](use-cases/usc-9-allow-participant-entry-to-meeting.md)                         | As a **host**, I want to control who I let in the meeting so that I can moderate the meeting.                                          | ST     | Must   |
+| 04  | [us-4](use-cases/ucs-4-screensharing.md)                                              | As a **host**, I want to share my screen in the meetings, so that attendees can view my presentation.                                  | JT     | Must   |
+| 05  | [us-3](use-cases/ucs-3-being-recorded.md)                                             | As a **user**, I want to be automatically notified about recording of the meeting.                                                     | MR     | Should |
+| 06  | [us-8](use-cases/usc-8-host-control-participant-audio.md)                             | As a **host**, I want to control a meeting participant's audio so that I can moderate the meeting.                                     | ST     | Should |
+| 07  | [us-5](use-cases/ucs-5-host-viewing-recording-of-meeting.md)                          | As a **host**, I want to view the recording from the meeting.                                                                          | NH, AF | Should |
+| 08  | [us-7](use-cases/usc-7-platform-provider-remove-recordings-after-retention-period.md) | As a **platform provider**, I want remove recordings after data retention period.                                                      | NH     | Could  |
 
 ### Use Case Specification
 
-These will be seperate documents for each use case.
-
 Naming convention: `./use-cases/ucs-<number>-<use-case-name>.md` in the docs folder. For example `ucs-1-login.md`.
-
-[Template for the use case specification](./use-cases/ucs-template.md)
 
 ---
 
