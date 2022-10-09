@@ -110,19 +110,23 @@ Following table describes the requirements engineering activities and the respon
 In this section, the change management process and tools used in the project are described.
 
 #### 3.1.1 Version management
-Change management and the process to update this document is based on version control system Git. The document is stored in the repository and the changes are tracked in the version history. The document is updated by the requirements engineering team and the changes are approved using pull requests. Required pull request reviewer is a role defined in the chapter [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces).
+Change management and the process to update this document is based on version control system Git on a GitHub version control platform. The documents are stored in the repository and the changes are tracked in commit history of the whole Requirements engineering process. Main changes are documented in each documents start in general way. The documents are updated by the requirements engineering team and the changes are approved using pull requests in the GitHub platform of the project. Required pull request reviewer is a role defined in the chapter [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces).
 
 This and other project documentation can be found in the [GitHub repository](https://github.com/joniturunen/lut-requirements-engineering) in markdown language. Document table of contents is generated and updated (automatically) in [vscode](https://code.visualstudio.com) using [markdown extension](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one).
 
-Docs are available for public access and do not inlcude personal information. Deliverables for the course are generated in PDF format with tools like [pandoc](https://github.com/pandoc/pandoc-action-example) and [heredoc](https://tldp.org/LDP/abs/html/here-docs.html) in [GitHub Actions](https://docs.github.com/en/actions). 
+Docs are available for public access and do not include personal information like whole names. Deliverables for the course are generated in PDF format with tools like [pandoc](https://github.com/pandoc/pandoc-action-example) and [heredoc](https://tldp.org/LDP/abs/html/here-docs.html) in [GitHub Actions](https://docs.github.com/en/actions). 
 
 #### 3.1.2 Change management process
 
-> Describe the process by which problems and changes are submitted, reviewed, and resolved. This should include the process for negotiating requirements changes with customers, and any contractual processes, activities, and constraints. Describe the membership of the Change Control Board (CCB) and procedures for processing change requests and approvals to be followed by the CCB.
+Using GitHub platform for the version control enables us to take use of wide variety of tools and services. For example, we can use [GitHub Actions](https://docs.github.com/en/actions) to automate the process of generating PDF documents from markdown files. This way we can generate the final deliverables for the course in PDF format and make them available for the course staff to review. 
 
-TODO: Decide how to handle changes to the requirements.
+For change management we utilize the [GitHub pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) feature. The pull request is a way to propose changes to the repository. The changes are reviewed by the project team and the changes are merged to the main branch only after the review is done. This way we can ensure that the changes are reviewed and approved by the project team before they are merged to the main branch.
 
-- Maybe we can use GitHub issues to track changes and use pull requests to approve them?
+For external stakeholders we have introduced the concept of [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues). The issues are used to track the requests. The issues are created by the external stakeholders and the project team is responsible for reviewing and closing the issues. The issues are closed when the change is implemented or discarded with a reason. 
+
+Issues can be tied to the pull requests. This way we can ensure that the changes are reviewed and approved by the project team before they are merged to the main branch.
+
+> For branching strategy we use is simple GitHub Flow where the main branch is the default branch. The main branch is protected and changes are merged to the main branch only after the pull request is approved. "Feature" branches are squash merged to the main branch and deleted after the merge.
 
 ---
 
