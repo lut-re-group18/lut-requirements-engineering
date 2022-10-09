@@ -79,17 +79,17 @@ EL = Elicitation Lead
 
 Following table describes the requirements engineering activities and the responsible team members for each activity.
 
-| **Requirements Activity** | **Description** | **Responsibles** | **Status** |
-|---------------------------|-----------------|------------------|------------|
-| Elicitation activities    | Questionaire to client | | Done |
-| Requirements management   | Decision about management process | JT | Waiting comments |
-| Requirements analysis     | Identifying ASRs | RE Team | Started |
-| Requirements specification| | | |
-| Requirements validation   | | | |
-| Modeling activities | | | | |
-| Requirements traceability | Reqs need to be grounded buss. | | | |
-| Requirements verification | | | | |
-| Final deliverables | Submit final work  | | | |
+| **Requirements Activity** | **Description**                         | **Responsibles** | **Status**             |
+|---------------------------|-----------------------------------------|------------------|------------------------|
+| Elicitation activities    | Questionaire to client                  | MR, AF, et al.   | Done                   |
+| Requirements management   | Decision about management process       | JT, et al.       | Updated regularly      |
+| Requirements analysis     | Identifying Use Cases and ASRs          | Whole RE team    | Started                |
+| Requirements specification| Use cases are utilized (done in iterat.)| Whole RE team    | First iteration done   |
+| Requirements validation   |                                         | Whole RE team    |                        |
+| Modeling activities       |                                         |                  |                        |
+| Requirements traceability | Reqs need to be grounded to buss. needs |                  |                        |
+| Requirements verification |                                         |                  |                        |
+| Final deliverables        | Submit final work                       | Whole RE team    |                        |
 
 
 ---
