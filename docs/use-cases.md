@@ -25,7 +25,6 @@
 
 ## Use case specification template
 
-
 Use case specifications are written in markdown and stored in the `docs/use-cases` folder. The [template for the use case specification](./use-cases/ucs-template.md) is in the `docs/use-cases/ucs-template.md` file.
 
 ### Use Case Diagram
@@ -42,7 +41,7 @@ us-19: As [a user persona], I want [to perform this action] so that [I can accom
 
 Table of use cases are prioritized in the order of importance using the MoSCoW scale. The use case specifications are linked to the user stories in the table.
 
-| #   | User Story ID                                                                         | User Story                                                                                                                             | Author | MSCW   | 
+| #   | User Story ID                                                                         | User Story                                                                                                                             | Author | MSCW   |
 | --- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------ |
 | 01  | [us-2](use-cases/ucs-2-access-through-app.md)                                         | As a **user**, I want to join meetings via calendar app so that I can join meetings without opening the app.                           | MR     | Must   |
 | 02  | [us-1](use-cases/ucs-1-login.md)                                                      | As a **user**, I want to be able to use my existing 3rd party authentication provider so that I can use my existing credentials to in. | JT     | Must   |
@@ -50,8 +49,8 @@ Table of use cases are prioritized in the order of importance using the MoSCoW s
 | 04  | [us-4](use-cases/ucs-4-screensharing.md)                                              | As a **host**, I want to share my screen in the meetings, so that attendees can view my presentation.                                  | JT     | Must   |
 | 05  | [us-3](use-cases/ucs-3-being-recorded.md)                                             | As a **user**, I want to be automatically notified about recording of the meeting.                                                     | MR     | Should |
 | 06  | [us-8](use-cases/usc-8-host-control-participant-audio.md)                             | As a **host**, I want to control a meeting participant's audio so that I can moderate the meeting.                                     | ST     | Should |
-| 07  | [us-5](use-cases/ucs-5-host-viewing-recording-of-meeting.md)                          | As a **host**, I want to view the recording from the meeting.                                                                          | NH, AF | Should |
-| 08  | [us-7](use-cases/usc-7-platform-provider-remove-recordings-after-retention-period.md) | As a **platform provider**, I want remove recordings after data retention period.                                                      | NH     | Could  |
+| 07  | [us-5](use-cases/ucs-5-host-viewing-recording-of-meeting.md)                          | As a **host**, I want to view the recording from the meeting, so that I can easily review what was said and agreed upon.               | NH, AF | Should |
+| 08  | [us-7](use-cases/usc-7-platform-provider-remove-recordings-after-retention-period.md) | As a **platform provider**, I want remove recordings after data retention period, so that no data is unnecessarily retained (GDPR).    | NH     | Could  |
 
 ### Use Case Specification
 
