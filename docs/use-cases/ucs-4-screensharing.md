@@ -6,7 +6,7 @@
 
 | **Use Case ID**         | ucs-4-screensharing.md      										 |
 |-------------------------|----------------------------------------------------------------------|
-| **Use Case Name**       | Share screen to other users in the meetging              			 |
+| **Use Case Name**       | Share screen to other users in the meeting              			 |
 | **Related User Story**  | us-4                                                                 |
 | **End Objective**       | During the meeting host's screen is visible to meeting attendees     |
 | **Creator & time**      | Joni Turunen 6.10.2022  	                                         |
