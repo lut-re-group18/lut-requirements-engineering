@@ -6,9 +6,9 @@
 
 | **Use Case ID**         | USC-9-allow-participant-entry-to-meeting                             |
 |-------------------------|----------------------------------------------------------------------|
-| **Use Case Name**       | Allow participant entry into meeting. |
+| **Use Case Name**       | Allow participant entry into meeting.                                |
 | **Related User Story**  |                                                                      |
-| **End Objective**       | The meeting host allows or denies a participant entry into a meeting. |
+| **End Objective**       | The meeting host allows or denies a participant entry into a meeting.|
 | **Creator & time**      |                                                                      |
 | **Last Updater & time** |                                                                      |
 | **Approver & time**     |                                                                      |
