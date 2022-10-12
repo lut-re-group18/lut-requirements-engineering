@@ -194,8 +194,7 @@ that can be used in web browser. From the user's point of view to
 fulfill these features the user needs to be able to do the following
 things with the software:
 
-1.  User can register/log in and link their account with Teams/Google
-    calendar
+1.  User can register or log in to Group 7's existing calendar software using Group 7's authentication system and access their account.
 
 2.  User can see their synchronized calendar via the application, and
     from there they can book new reservations
