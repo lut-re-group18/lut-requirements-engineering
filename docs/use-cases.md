@@ -29,8 +29,7 @@ Use case specifications are written in markdown and stored in the `docs/use-case
 
 ### Use Case Diagram
 
-TODO: Overall use case diagram for the project.
-
+![Use Case Diagram](./use-cases/rendered-diagrams/meetcall-use-case-generic.png)
 ### User stories
 
 Template for user stories start with a identifier tag followed by user role, 'I want' and 'so that' statements.
