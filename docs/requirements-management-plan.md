@@ -7,10 +7,13 @@
 
 Document version history is maintained in the table below. The version number is incremented by for each new version of the document.
 
-| Version | Implemented by | Status |
-|---|---|---|
-| 0.1 | AF,NH et al. | Draft |
-| 0.2 | JT | Converted to MD | 
+| Version | Implemented by | Status                               |
+|---------|----------------|--------------------------------------|
+| 0.1     | AF,NH et al.   | Draft                                |
+| 0.2     | JT             | Converted to MD                      | 
+| 0.3     | JT, et al.     | Added info about roles               |
+| 0.4     | JT             | Added info about process for SRS     |
+
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
 
@@ -53,9 +56,9 @@ This chapter describes the requirements management process and tools used in the
 
 ### 2.1 Organization, responsibilities, interfaces
 
-> Describe here who is going to be responsible for performing the various activities described in the requirements workflows defined later in this document.
+Roles and responsibilities are described in the tables below in no particular order. All of the team members are assigned as requirements engineers. Tasks are done in rotation and iteratively. This helps to mitigate the risk of falling into 'wise man' trap where just one person is responsible for a particular task. While rotating tasks we facilitate knowledge transfer and ensure that all team members are familiar with all the deliverables.
 
-Roles and responsibilities are described in the tables below in no particular order.
+Work is shared between the team members in agile way where everyone takes responsibility for the whole project. However, there are a few roles that have become more pronounced in terms of responsibility areas. These roles are described in the table below and are assigned to the team members in the beginning of the project.
 
 | Name      | Requirements Management Role |
 |:----------|:--------|
@@ -65,8 +68,6 @@ Roles and responsibilities are described in the tables below in no particular or
 | S*** T*** | RE + QA |
 | J*** T*** | RE + PM |
 
-TODO: Explain abreviations.
-
 SD = System Designer
 RE = Requirements Engineer
 PM = Project Manager
@@ -74,55 +75,60 @@ QA = Quality Assurance Lead
 CM = Change Manager
 EL = Elicitation Lead
 
-
 ### 2.2 Processes and techniques
 
 Following table describes the requirements engineering activities and the responsible team members for each activity.
 
-| **Requirements Activity** | **Description** | **Responsibles** | **Status** |
-|---------------------------|-----------------|------------------|------------|
-| Elicitation activities    | Questionaire to client | | Done |
-| Requirements management   | Decision about management process | JT | Waiting comments |
-| Requirements analysis     | Identifying ASRs | RE Team | Started |
-| Requirements specification| | | |
-| Requirements validation   | | | |
-| Modeling activities | | | | |
-| Requirements traceability | Reqs need to be grounded buss. | | | |
-| Requirements verification | | | | |
-| Final deliverables | Submit final work  | | | |
+| **Requirements Activity** | **Description**                         | **Responsibles** | **Status**             |
+|---------------------------|-----------------------------------------|------------------|------------------------|
+| Elicitation activities    | Questionaire to client                  | MR, AF, et al.   | Done                   |
+| Requirements management   | Decision about management process       | JT, et al.       | Updated regularly      |
+| Requirements analysis     | Identifying Use Cases and ASRs          | Whole RE team    | Started                |
+| Requirements specification| Use cases are utilized (done in iterat.)| Whole RE team    | First iteration done   |
+| Requirements validation   |                                         | Whole RE team    |                        |
+| Modeling activities       |                                         |                  |                        |
+| Requirements traceability | Reqs need to be grounded to buss. needs |                  |                        |
+| Requirements verification |                                         |                  |                        |
+| Final deliverables        | Submit final work                       | Whole RE team    |                        |
 
 
 ---
 
 ## 3. Requirements Management
 
-| **Activity** | **Plan** |
-|:---|:---|
-| **Determine Requirements Attributes**|
-| Requirement facts (unique number, date created, source, business rules, etc.) | Lorem ipsum |
-| Traceability facts (what to trace to: business objectives, project objectives, design artifacts, testing, etc.) | Lorem ipsum |
-| Management facts (priority, version / release, status, approval, comments, etc.) | Lorem ipsum |
-| **Prioritize Requirements** |
-| Develop prioritization process | Lorem ipsum |
+| **Activity**                                                                  | **Plan**                                                               |
+|:-------------------------------------|:----------------------------------------------------------------------------------------------------------------|
+| **Determine Requirements Attributes**                                                                                                                  |
+| Requirement facts                    | Identify non-functional and functional requirements iteratively                                                 |
+| Traceability facts                   | Facts and other assets are managed in GitHub and versioned releases are available via GitHub Releases           |
+| Management facts                     | Management is done on the documentation via GitHub Pull Requests flow and reviewed in Teams                     |
+| **Prioritize Requirements**                                                                                                                            |
+| Develop prioritization process       | For prioritization process we follow agile methodology and use GitHub Projects to manage the work. Priorization is done on the MSCW scale | 
+
+
 
 ### 3.1 Change management
 
 In this section, the change management process and tools used in the project are described.
 
 #### 3.1.1 Version management
-Change management and the process to update this document is based on version control system Git. The document is stored in the repository and the changes are tracked in the version history. The document is updated by the requirements engineering team and the changes are approved using pull requests. Required pull request reviewer is a role defined in the chapter [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces).
+Change management and the process to update this document is based on version control system Git on a GitHub version control platform. The documents are stored in the repository and the changes are tracked in commit history of the whole Requirements engineering process. Main changes are documented in each documents start in general way. The documents are updated by the requirements engineering team and the changes are approved using pull requests in the GitHub platform of the project. Required pull request reviewer is a role defined in the chapter [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces).
 
 This and other project documentation can be found in the [GitHub repository](https://github.com/joniturunen/lut-requirements-engineering) in markdown language. Document table of contents is generated and updated (automatically) in [vscode](https://code.visualstudio.com) using [markdown extension](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one).
 
-Docs are available for public access and do not inlcude personal information. Deliverables for the course are generated in PDF format with tools like [pandoc](https://github.com/pandoc/pandoc-action-example) and [heredoc](https://tldp.org/LDP/abs/html/here-docs.html) in [GitHub Actions](https://docs.github.com/en/actions). 
+Docs are available for public access and do not include personal information like whole names. Deliverables for the course are generated in PDF format with tools like [pandoc](https://github.com/pandoc/pandoc-action-example) and [heredoc](https://tldp.org/LDP/abs/html/here-docs.html) in [GitHub Actions](https://docs.github.com/en/actions). 
 
 #### 3.1.2 Change management process
 
-> Describe the process by which problems and changes are submitted, reviewed, and resolved. This should include the process for negotiating requirements changes with customers, and any contractual processes, activities, and constraints. Describe the membership of the Change Control Board (CCB) and procedures for processing change requests and approvals to be followed by the CCB.
+Using GitHub platform for the version control enables us to take use of wide variety of tools and services. For example, we can use [GitHub Actions](https://docs.github.com/en/actions) to automate the process of generating PDF documents from markdown files. This way we can generate the final deliverables for the course in PDF format and make them available for the course staff to review. 
 
-TODO: Decide how to handle changes to the requirements.
+For change management we utilize the [GitHub pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) feature. The pull request is a way to propose changes to the repository. The changes are reviewed by the project team and the changes are merged to the main branch only after the review is done. This way we can ensure that the changes are reviewed and approved by the project team before they are merged to the main branch.
 
-- Maybe we can use GitHub issues to track changes and use pull requests to approve them?
+For external stakeholders we have introduced the concept of [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues). The issues are used to track the requests. The issues are created by the external stakeholders and the project team is responsible for reviewing and closing the issues. The issues are closed when the change is implemented or discarded with a reason. 
+
+Issues can be tied to the pull requests. This way we can ensure that the changes are reviewed and approved by the project team before they are merged to the main branch.
+
+> For branching strategy we use is simple GitHub Flow where the main branch is the default branch. The main branch is protected and changes are merged to the main branch only after the pull request is approved. "Feature" branches are squash merged to the main branch and deleted after the merge.
 
 ---
 
