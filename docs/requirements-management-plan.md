@@ -96,14 +96,16 @@ Following table describes the requirements engineering activities and the respon
 
 ## 3. Requirements Management
 
-| **Activity**                                                                  | **Plan**                                   |
-|:------------------------------------------------------------------------------|:-------------------------------------------|
-| **Determine Requirements Attributes**                                                                                      |
-| Requirement facts (unique no., date created, source, business rules, etc.)    | Non-functional and functional requirements |
-| Traceability facts (What: bus.obj., proj. obj, dsgn., artf., test, etc.)      | Lorem ipsum                                |
-| Management facts (prio, ver./rel., status, approval, comments, etc.)          | Lorem ipsum                                |
-| **Prioritize Requirements**                                                                                                |
-| Develop prioritization process                                                | Lorem ipsum                                |
+| **Activity**                                                                  | **Plan**                                                               |
+|:-------------------------------------|:----------------------------------------------------------------------------------------------------------------|
+| **Determine Requirements Attributes**                                                                                                                  |
+| Requirement facts                    | Identify non-functional and functional requirements iteratively                                                 |
+| Traceability facts                   | Facts and other assets are managed in GitHub and versioned releases are available via GitHub Releases           |
+| Management facts                     | Management is done on the documentation via GitHub Pull Requests flow and reviewed in Teams                     |
+| **Prioritize Requirements**                                                                                                                            |
+| Develop prioritization process       | For prioritization process we follow agile methodology and use GitHub Projects to manage the work. Priorization is done on the MSCW scale | 
+
+
 
 ### 3.1 Change management
 
