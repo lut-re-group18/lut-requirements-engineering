@@ -22,8 +22,6 @@ Please check details about version management from chapter [3.1.1](#311-version-
 
 ---
 
-TODO: Describe the rotating SRS process.
-
 ## Table of Contents
 
 - [Requirements management plan (MeetCall)](#requirements-management-plan-meetcall)
@@ -57,7 +55,7 @@ This chapter describes the requirements management process and tools used in the
 
 ### 2.1 Organization, responsibilities, interfaces
 
-Roles and responsibilities are described in the tables below in no particular order. All of the team members are assigned as requirements engineers. Tasks are done in rotation and iteratively. This helps to mitigate the risk of falling into 'wise man' trap where just one person is responsible for a particular task. While rotating tasks we facilitate knowledge transfer and ensure that all team members are familiar with all the deliverables.
+Roles and responsibilities are described in the tables below in no particular order. All of the team members are assigned as requirements engineers. Tasks are done in rotation and iteratively. This helps to mitigate the risk of falling into 'wise man' trap where just one person is responsible for a particular task. It is more valuable for the team to rotate tasks and receive holisitc view of project and share the knowledge. This ensures better quality work. While rotating tasks we facilitate knowledge transfer and ensure that all team members are familiar with all the deliverables.
 
 Work is shared between the team members in agile way where everyone takes responsibility for the whole project. However, there are a few roles that have become more pronounced in terms of responsibility areas. These roles are described in the table below and are assigned to the team members in the beginning of the project.
 
@@ -143,6 +141,8 @@ The requirements definitions are described in the following [requirements table]
 
 The dynamic list of requirements is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues).
 
+This requirements deliverable is added to the SRS document.
+
 ## Appendix C: Traceability template
 
 Tracibility of the project is done in GitHub using the Pull Requests and commits in them. Internal changes to the documents are tracked in the commit history of the documents. External changes are tracked in the issues. At the time of writing this document, the project has not received any external change requests.
@@ -151,4 +151,4 @@ The traceability tables are described in the following [traceability table](trac
 
 The dynamic list of pull requests is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/pulls](https://github.com/lut-re-group18/lut-requirements-engineering/pulls?q=is%3Apr). 
 
-
+This pull request deliverable is added to the SRS document.
