@@ -17,6 +17,8 @@ Document version history is maintained in the table below. The version number is
 | 0.6     | PM             | Add requirements file to the RE repo           |
 | 0.7     | PM             | Add info generating appendices                 |
 | 0.8     | RE team        | Add description of management plan, Reviewed   |
+| 0.9     | PM             | Add info about traceability                    |
+| 1.0     | PM             | Update the plan for final review               |
 
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
@@ -33,13 +35,14 @@ Please check details about version management from chapter [3.1.1](#311-version-
   - [2. Requirements Management overview](#2-requirements-management-overview)
     - [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces)
     - [2.2 Processes and techniques](#22-processes-and-techniques)
+    - [2.3 Requirements Definition management](#23-requirements-definition-management)
+    - [2.4 Traceability of requirements engineering work](#24-traceability-of-requirements-engineering-work)
+    - [2.5 Requirements management tools](#25-requirements-management-tools)
   - [3. Requirements Management](#3-requirements-management)
     - [3.1 Change management](#31-change-management)
       - [3.1.1 Version management](#311-version-management)
       - [3.1.2 Change management process](#312-change-management-process)
-  - [Appendix A: Key Terms](#appendix-a-key-terms)
-  - [Appendix B: Requirements Definitions template](#appendix-b-requirements-definitions-template)
-  - [Appendix C: Traceability template](#appendix-c-traceability-template)
+  - [Appendix A: Guide to generate deliverables](#appendix-a-guide-to-generate-deliverables)
 
 ---
 
@@ -87,10 +90,47 @@ Following table describes the requirements engineering activities and the respon
 | Requirements specification| Use cases are utilized (done in iterat.)| Whole RE team    | First iteration done   |
 | Requirements validation   |                                         | Whole RE team    |                        |
 | Modeling activities       |                                         |                  |                        |
-| Requirements traceability | Reqs need to be grounded to buss. needs |                  |                        |
+| Requirements traceability | Requirements are traced in GitHub       |                  |                        |
 | Requirements verification |                                         |                  |                        |
 | Final deliverables        | Submit final work                       | Whole RE team    |                        |
 
+
+### 2.3 Requirements Definition management
+
+The requirements definitions are described in the following [requirements table](requirements.md). This static list is updated and delivered as Appendix B in the final deliverables.
+
+The dynamic list of requirements is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues).
+
+This requirements deliverable is added to the SRS document.
+
+### 2.4 Traceability of requirements engineering work
+
+Tracibility of the project is done in GitHub using the Pull Requests and commits in them. Internal changes to the documents are tracked in the commit history of the documents. External changes are tracked in the issues. At the time of writing this document, the project has not received any external change requests.
+
+The traceability tables are described in the following [traceability table](traceability.md). This static list is updated and delivered as Appendix C in the final deliverables.
+
+The dynamic list of pull requests is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/pulls](https://github.com/lut-re-group18/lut-requirements-engineering/pulls?q=is%3Apr). 
+
+This pull request deliverable is added to the SRS document.
+
+
+### 2.5 Requirements management tools
+
+Requirements management tools are described in the following table.
+
+| **Tool**            | **Description**                                                                                        |
+|---------------------|--------------------------------------------------------------------------------------------------------|
+| GitHub              | GitHub is used for most of the requirements engineering work                                           |
+| GitHub Issues       | GitHub issues are used for external change requests and for tracking requirements                      |
+| GitHub Pull Requests| GitHub pull requests are used for all work done to core documentation in the project                   |
+| Microsoft Teams     | Microsoft Teams is used for communication between the team members and to held document reviews        |
+| GitHub Actions      | GitHub Actions are used to automate the document generation                                            |
+| GitHub Pages        | GitHub Pages are used to host the documentation and represent it to the client                         |
+| TablesGenerator     | TablesGenerator is used to generate the markdown tables in the documents                               |
+| Microsoft Word      | Microsoft Word is used to generate the final deliverables for the school assignment                    |
+
+
+To generate deliverables of requirements and traceability, please see [Appendix D](#appendix-d-guide-to-generate-deliverables).
 
 ---
 
@@ -132,24 +172,8 @@ Issues can be tied to the pull requests. This way we can ensure that the changes
 
 ---
 
-## Appendix A: Key Terms
+## Appendix A: Guide to generate deliverables
 
-> List all key terms used in this document.
+[Guide to generate deliverables](generate-appendices.md).
 
-## Appendix B: Requirements Definitions template
-
-The requirements definitions are described in the following [requirements table](requirements.md). This static list is updated and delivered as Appendix B in the final deliverables.
-
-The dynamic list of requirements is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues).
-
-This requirements deliverable is added to the SRS document.
-
-## Appendix C: Traceability template
-
-Tracibility of the project is done in GitHub using the Pull Requests and commits in them. Internal changes to the documents are tracked in the commit history of the documents. External changes are tracked in the issues. At the time of writing this document, the project has not received any external change requests.
-
-The traceability tables are described in the following [traceability table](traceability.md). This static list is updated and delivered as Appendix C in the final deliverables.
-
-The dynamic list of pull requests is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/pulls](https://github.com/lut-re-group18/lut-requirements-engineering/pulls?q=is%3Apr). 
-
-This pull request deliverable is added to the SRS document.
+---
