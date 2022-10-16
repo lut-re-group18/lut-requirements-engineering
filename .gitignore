@@ -4,3 +4,9 @@
 *.bkp
 *.dtmp
 .DS_Store
+
+# Ignore csv files
+*.csv
+# except these
+!pr-header.csv
+!req-header.csv
