@@ -7,15 +7,16 @@
 
 Document version history is maintained in the table below. The version number is incremented by for each new version of the document.
 
-| Version | Implemented by | Status                               |
-|---------|----------------|--------------------------------------|
-| 0.1     | AF,NH et al.   | Draft                                |
-| 0.2     | PM             | Converted to MD                      | 
-| 0.3     | PM, et al.     | Added info about roles               |
-| 0.4     | PM             | Added info about process for SRS     |
-| 0.5     | PM             | Update changes from teams review     |
-| 0.6     | PM             | Add requirements file to the RE repo |
-| 0.7     | PM             | Add info generating appendices       |
+| Version | Implemented by | Status                                         |
+|---------|----------------|------------------------------------------------|
+| 0.1     | AF,NH et al.   | Draft                                          |
+| 0.2     | PM             | Converted to MD                                | 
+| 0.3     | PM, et al.     | Added info about roles                         |
+| 0.4     | PM             | Added info about process for SRS               |
+| 0.5     | PM             | Update changes from teams review               |
+| 0.6     | PM             | Add requirements file to the RE repo           |
+| 0.7     | PM             | Add info generating appendices                 |
+| 0.8     | RE team        | Add description of management plan, Reviewed   |
 
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
