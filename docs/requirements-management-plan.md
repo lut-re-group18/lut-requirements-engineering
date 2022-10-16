@@ -7,20 +7,21 @@
 
 Document version history is maintained in the table below. The version number is incremented by for each new version of the document.
 
-| Version | Implemented by | Status                               |
-|---------|----------------|--------------------------------------|
-| 0.1     | AF,NH et al.   | Draft                                |
-| 0.2     | PM             | Converted to MD                      | 
-| 0.3     | PM, et al.     | Added info about roles               |
-| 0.4     | PM             | Added info about process for SRS     |
-| 0.5     | PM             | Update changes from teams review     |
+| Version | Implemented by | Status                                         |
+|---------|----------------|------------------------------------------------|
+| 0.1     | AF,NH et al.   | Draft                                          |
+| 0.2     | PM             | Converted to MD                                | 
+| 0.3     | PM, et al.     | Added info about roles                         |
+| 0.4     | PM             | Added info about process for SRS               |
+| 0.5     | PM             | Update changes from teams review               |
+| 0.6     | PM             | Add requirements file to the RE repo           |
+| 0.7     | PM             | Add info generating appendices                 |
+| 0.8     | RE team        | Add description of management plan, Reviewed   |
 
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
 
 ---
-
-TODO: Describe the rotating SRS process.
 
 ## Table of Contents
 
@@ -36,11 +37,9 @@ TODO: Describe the rotating SRS process.
     - [3.1 Change management](#31-change-management)
       - [3.1.1 Version management](#311-version-management)
       - [3.1.2 Change management process](#312-change-management-process)
-  - [Appendix A: References](#appendix-a-references)
-  - [Appendix B: Key Terms](#appendix-b-key-terms)
-  - [Appendix C: Requirements Definition Template](#appendix-c-requirements-definition-template)
-  - [Appendix D: Requirements Traceability Template](#appendix-d-requirements-traceability-template)
-  - [Appendix E: Collaborators](#appendix-e-collaborators)
+  - [Appendix A: Key Terms](#appendix-a-key-terms)
+  - [Appendix B: Requirements Definitions template](#appendix-b-requirements-definitions-template)
+  - [Appendix C: Traceability template](#appendix-c-traceability-template)
 
 ---
 
@@ -57,7 +56,7 @@ This chapter describes the requirements management process and tools used in the
 
 ### 2.1 Organization, responsibilities, interfaces
 
-Roles and responsibilities are described in the tables below in no particular order. All of the team members are assigned as requirements engineers. Tasks are done in rotation and iteratively. This helps to mitigate the risk of falling into 'wise man' trap where just one person is responsible for a particular task. While rotating tasks we facilitate knowledge transfer and ensure that all team members are familiar with all the deliverables.
+Roles and responsibilities are described in the tables below in no particular order. All of the team members are assigned as requirements engineers. Tasks are done in rotation and iteratively. This helps to mitigate the risk of falling into 'wise man' trap where just one person is responsible for a particular task. It is more valuable for the team to rotate tasks and receive holisitc view of project and share the knowledge. This ensures better quality work. While rotating tasks we facilitate knowledge transfer and ensure that all team members are familiar with all the deliverables.
 
 Work is shared between the team members in agile way where everyone takes responsibility for the whole project. However, there are a few roles that have become more pronounced in terms of responsibility areas. These roles are described in the table below and are assigned to the team members in the beginning of the project.
 
@@ -133,19 +132,24 @@ Issues can be tied to the pull requests. This way we can ensure that the changes
 
 ---
 
-## Appendix A: References
-
-> List all references used in this document.
-
-## Appendix B: Key Terms
+## Appendix A: Key Terms
 
 > List all key terms used in this document.
 
-## Appendix C: Requirements Definition Template
+## Appendix B: Requirements Definitions template
 
-## Appendix D: Requirements Traceability Template
+The requirements definitions are described in the following [requirements table](requirements.md). This static list is updated and delivered as Appendix B in the final deliverables.
 
-## Appendix E: Collaborators
+The dynamic list of requirements is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues).
 
-List all collaborators who have contributed to this document.
+This requirements deliverable is added to the SRS document.
 
+## Appendix C: Traceability template
+
+Tracibility of the project is done in GitHub using the Pull Requests and commits in them. Internal changes to the documents are tracked in the commit history of the documents. External changes are tracked in the issues. At the time of writing this document, the project has not received any external change requests.
+
+The traceability tables are described in the following [traceability table](traceability.md). This static list is updated and delivered as Appendix C in the final deliverables.
+
+The dynamic list of pull requests is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/pulls](https://github.com/lut-re-group18/lut-requirements-engineering/pulls?q=is%3Apr). 
+
+This pull request deliverable is added to the SRS document.
