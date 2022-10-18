@@ -1,10 +1,12 @@
 # Use Case Document
 
 > Document authors:
-> Nxxx Hxxx, Mxxx Rxxx, Axxx Fxxx, Sxxx Txxx, Jxxx Txxx
+> Nico Hartto, Mika Raudaskoski, Aleksanteri Fagerholm, Simachew Tibebu, Joni Turunen
 
 > Draft created 3.10.2022
-> Last updated 9.10.2022
+> Last updated 18.10.2022
+> Version 1.2 (For review) - Change history in GitHub repository
+
 
 ---
 
@@ -27,18 +29,23 @@
 
 Use case specifications are written in markdown and stored in the `docs/use-cases` folder. The [template for the use case specification](./use-cases/ucs-template.md) is in the `docs/use-cases/ucs-template.md` file.
 
+Use cases are presented via GitHub pages at [https://lut-re-group18.github.io/lut-requirements-engineering/docs/use-cases.html](https://lut-re-group18.github.io/lut-requirements-engineering/docs/use-cases.html). Final deliverable is a PDF document that is generated from the markdown files and submitted to Moodle.
+
 ### Use Case Diagram
 
+Use case diagram shows the actors and the main use cases of the system.
+
 ![Use Case Diagram](./use-cases/rendered-diagrams/meetcall-use-case-generic.png)
+
 ### User stories
 
-Template for user stories start with a identifier tag followed by user role, 'I want' and 'so that' statements.
+Template for user stories start with a identifier **tag** followed by user **role** and a story written in 'I want' and 'so that' statements.
 
 ```markdown
 us-19: As [a user persona], I want [to perform this action] so that [I can accomplish this goal].
 ```
 
-Table of use cases are prioritized in the order of importance using the MoSCoW scale. The use case specifications are linked to the user stories in the table.
+Table of use cases are prioritized in the order of importance using the MoSCoW scale. The use case specifications are linked to the user stories in the table. Scale consists of four categories: **M**ust have, **S**hould have, **C**ould have and **W**on't have.
 
 | #   | User Story ID                                                                         | User Story                                                                                                                             | Author | MSCW   |
 | --- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------ |
@@ -54,13 +61,19 @@ Table of use cases are prioritized in the order of importance using the MoSCoW s
 
 ### Use Case Specification
 
-Naming convention: `./use-cases/ucs-<number>-<use-case-name>.md` in the docs folder. For example `ucs-1-login.md`.
+Naming convention for the UCSs is present in the file names `./use-cases/ucs-<number>-<use-case-name>.md` in the docs folder. 
+
+For example `ucs-1-login.md`.
 
 ---
 
 ## Use case specific checks
 
 > Check list for **reflecting** on the **work** that has **been done**.
+
+This list is used during the review of the use case specifications. The list is not exhaustive and the list is not in any particular order. List is part of the original template documentation used in the requirements engineering course.
+
+> !!! Should we remove this section entirely?
 
 ### Use Case Diagram
 

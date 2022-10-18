@@ -1,7 +1,7 @@
 # Requirements management plan (MeetCall)
 
 > Document authors:
-> Nxxx Hxxx, Mxxx Rxxx, Axxx Fxxx, Sxxx Txxx, Jxxx Txxx
+> Nico Hartto, Mika Raudaskoski, Aleksanteri Fagerholm, Simachew Tibebu, Joni Turunen
 
 ## Versioning
 
@@ -19,6 +19,7 @@ Document version history is maintained in the table below. The version number is
 | 0.8     | RE team        | Add description of management plan, Reviewed   |
 | 0.9     | PM             | Add info about traceability                    |
 | 1.0     | PM             | Update the plan for final review               |
+| 1.1     | RE team        | Approved the document; added author names      |
 
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
@@ -34,6 +35,7 @@ Please check details about version management from chapter [3.1.1](#311-version-
     - [1.1 Purpose of this document](#11-purpose-of-this-document)
   - [2. Requirements Management overview](#2-requirements-management-overview)
     - [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces)
+      - [Abbreviations used in roles table](#abbreviations-used-in-roles-table)
     - [2.2 Processes and techniques](#22-processes-and-techniques)
     - [2.3 Requirements Definition management](#23-requirements-definition-management)
     - [2.4 Traceability of requirements engineering work](#24-traceability-of-requirements-engineering-work)
@@ -49,7 +51,9 @@ Please check details about version management from chapter [3.1.1](#311-version-
 ## 1. Introduction
 
 ### 1.1 Purpose of this document
-Purpose of this document is to define the requirements management process and tools used in the project. This document is created during the planning phase of the project and its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan. Plan is iterated during the project and updated as needed.
+Purpose of this document is to define the requirements management process and tools used in the project. This document is created during the planning phase of the project and its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan. 
+
+Plan is iterated during the project and updated as needed.
 
 ---
 
@@ -63,13 +67,15 @@ Roles and responsibilities are described in the tables below in no particular or
 
 Work is shared between the team members in agile way where everyone takes responsibility for the whole project. However, there are a few roles that have become more pronounced in terms of responsibility areas. These roles are described in the table below and are assigned to the team members in the beginning of the project.
 
-| Name      | Requirements Management Role |
-|:----------|:--------|
-| N*** H*** | RE + CM |
-| M*** R*** | EL + RE |
-| A*** F*** | RE + SD |
-| S*** T*** | RE + QA |
-| J*** T*** | RE + PM |
+| Name                  | Requirements Management Role |
+|:----------------------|:-----------------------------|
+| Nico Hartto           | RE + CM                      |
+| Mika Raudaskoski      | EL + RE                      |
+| Aleksanteri Fagerholm | RE + SD                      |
+| Simachew Tibebu       | RE + QA                      |
+| Joni Turunen          | RE + PM                      |
+
+#### Abbreviations used in roles table
 
 SD = System Designer
 RE = Requirements Engineer
@@ -86,18 +92,18 @@ Following table describes the requirements engineering activities and the respon
 |---------------------------|-----------------------------------------|------------------|------------------------|
 | Elicitation activities    | Questionaire to client                  | MR, AF, et al.   | Done                   |
 | Requirements management   | Decision about management process       | JT, et al.       | Updated regularly      |
-| Requirements analysis     | Identifying Use Cases and ASRs          | Whole RE team    | Started                |
-| Requirements specification| Use cases are utilized (done in iterat.)| Whole RE team    | First iteration done   |
-| Requirements validation   |                                         | Whole RE team    |                        |
-| Modeling activities       |                                         |                  |                        |
-| Requirements traceability | Requirements are traced in GitHub       |                  |                        |
-| Requirements verification |                                         |                  |                        |
-| Final deliverables        | Submit final work                       | Whole RE team    |                        |
+| Requirements analysis     | Identifying Use Cases and ASRs          | Whole RE team    | Done                   |
+| Requirements specification| Use cases are utilized (done in iterat.)| Whole RE team    | Done                   |
+| Requirements validation   | Part of SRS work, done in iterations    | Whole RE team    | Done                   |
+| Modeling activities       | Part of SRS documentation work          | Whole RE team    | Done                   |
+| Requirements traceability | Requirements are traced in GitHub       | Whole RE team    | Done                   |
+| Requirements verification | Requirements are worked in GitHub       | Whole RE team    | Done                   |
+| Final deliverables        | Submit final work                       | Whole RE team    | Up for review          |
 
 
 ### 2.3 Requirements Definition management
 
-The requirements definitions are described in the following [requirements table](requirements.md). This static list is updated and delivered as Appendix B in the final deliverables.
+The requirements definitions are described in the following [requirements table](requirements.md). This static list is updated and delivered in the SRS Appendix B in the final SRS deliverables.
 
 The dynamic list of requirements is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues).
 
@@ -107,7 +113,7 @@ This requirements deliverable is added to the SRS document.
 
 Tracibility of the project is done in GitHub using the Pull Requests and commits in them. Internal changes to the documents are tracked in the commit history of the documents. External changes are tracked in the issues. At the time of writing this document, the project has not received any external change requests.
 
-The traceability tables are described in the following [traceability table](traceability.md). This static list is updated and delivered as Appendix C in the final deliverables.
+The traceability tables are described in the following [traceability table](traceability.md). This static list is updated and delivered in the SRS Appendix C in the final deliverables.
 
 The dynamic list of pull requests is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/pulls](https://github.com/lut-re-group18/lut-requirements-engineering/pulls?q=is%3Apr). 
 
@@ -146,7 +152,6 @@ To generate deliverables of requirements and traceability, please see [Appendix 
 | Develop prioritization process       | For prioritization process we follow agile methodology and use GitHub Projects to manage the work. Priorization is done on the MSCW scale | 
 
 
-
 ### 3.1 Change management
 
 In this section, the change management process and tools used in the project are described.
@@ -174,6 +179,7 @@ Issues can be tied to the pull requests. This way we can ensure that the changes
 
 ## Appendix A: Guide to generate deliverables
 
-[Guide to generate deliverables](generate-appendices.md).
+Guide to generate deliverables: [https://lut-re-group18.github.io/lut-requirements-engineering/docs/generate-appendices.html](generate-appendices.md).
+
 
 ---
