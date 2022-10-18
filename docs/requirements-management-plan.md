@@ -152,7 +152,6 @@ To generate deliverables of requirements and traceability, please see [Appendix 
 | Develop prioritization process       | For prioritization process we follow agile methodology and use GitHub Projects to manage the work. Priorization is done on the MSCW scale | 
 
 
-
 ### 3.1 Change management
 
 In this section, the change management process and tools used in the project are described.
