@@ -51,7 +51,9 @@ Please check details about version management from chapter [3.1.1](#311-version-
 ## 1. Introduction
 
 ### 1.1 Purpose of this document
-Purpose of this document is to define the requirements management process and tools used in the project. This document is created during the planning phase of the project and its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan. Plan is iterated during the project and updated as needed.
+Purpose of this document is to define the requirements management process and tools used in the project. This document is created during the planning phase of the project and its intended audience is the project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan. 
+
+Plan is iterated during the project and updated as needed.
 
 ---
 
