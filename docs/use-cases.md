@@ -4,7 +4,9 @@
 > Nico Hartto, Mika Raudaskoski, Aleksanteri Fagerholm, Simachew Tibebu, Joni Turunen
 
 > Draft created 3.10.2022
-> Last updated 9.10.2022
+> Last updated 18.10.2022
+> Version 1.2 (For review) - Change history in GitHub repository
+
 
 ---
 
