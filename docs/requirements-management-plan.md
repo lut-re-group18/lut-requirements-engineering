@@ -179,6 +179,7 @@ Issues can be tied to the pull requests. This way we can ensure that the changes
 
 ## Appendix A: Guide to generate deliverables
 
-[Guide to generate deliverables](generate-appendices.md).
+Guide to generate deliverables: [https://lut-re-group18.github.io/lut-requirements-engineering/docs/generate-appendices.html](generate-appendices.md).
+
 
 ---
