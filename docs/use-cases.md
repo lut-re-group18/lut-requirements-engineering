@@ -29,6 +29,8 @@
 
 Use case specifications are written in markdown and stored in the `docs/use-cases` folder. The [template for the use case specification](./use-cases/ucs-template.md) is in the `docs/use-cases/ucs-template.md` file.
 
+Use cases are presented via GitHub pages at [https://lut-re-group18.github.io/lut-requirements-engineering/docs/use-cases.html](https://lut-re-group18.github.io/lut-requirements-engineering/docs/use-cases.html). Final deliverable is a PDF document that is generated from the markdown files and submitted to Moodle.
+
 ### Use Case Diagram
 
 ![Use Case Diagram](./use-cases/rendered-diagrams/meetcall-use-case-generic.png)
