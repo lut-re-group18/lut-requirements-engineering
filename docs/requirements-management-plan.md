@@ -103,7 +103,7 @@ Following table describes the requirements engineering activities and the respon
 
 ### 2.3 Requirements Definition management
 
-The requirements definitions are described in the following [requirements table](requirements.md). This static list is updated and delivered as Appendix B in the final deliverables.
+The requirements definitions are described in the following [requirements table](requirements.md). This static list is updated and delivered in the SRS Appendix B in the final SRS deliverables.
 
 The dynamic list of requirements is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues).
 
@@ -113,7 +113,7 @@ This requirements deliverable is added to the SRS document.
 
 Tracibility of the project is done in GitHub using the Pull Requests and commits in them. Internal changes to the documents are tracked in the commit history of the documents. External changes are tracked in the issues. At the time of writing this document, the project has not received any external change requests.
 
-The traceability tables are described in the following [traceability table](traceability.md). This static list is updated and delivered as Appendix C in the final deliverables.
+The traceability tables are described in the following [traceability table](traceability.md). This static list is updated and delivered in the SRS Appendix C in the final deliverables.
 
 The dynamic list of pull requests is available in the projects requirements engineering repository hosted on GitHub at [https://github.com/lut-re-group18/lut-requirements-engineering/pulls](https://github.com/lut-re-group18/lut-requirements-engineering/pulls?q=is%3Apr). 
 
