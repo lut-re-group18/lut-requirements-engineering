@@ -2,9 +2,11 @@
 
 ## Prepared for MeetCall - Group 7 Ltd.
 
-> Prepared by Axxx Fxxx Nxxx Hxxx, Jxxx Txxx, Sxxx Txxx, Mxxx Rxxx
+> Prepared by Nico Hartto, Mika Raudaskoski, Aleksanteri Fagerholm, Simachew Tibebu, Joni Turunen
 
-> Group 18 - 03.10.2022
+> Group 18 - 18.10.2022
+
+> Version 1.2 (For review) - Change history in GitHub repository
 
 ## Table of Contents
 
