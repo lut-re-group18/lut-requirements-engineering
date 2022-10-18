@@ -1,7 +1,7 @@
 # Use Case Document
 
 > Document authors:
-> Nxxx Hxxx, Mxxx Rxxx, Axxx Fxxx, Sxxx Txxx, Jxxx Txxx
+> Nico Hartto, Mika Raudaskoski, Aleksanteri Fagerholm, Simachew Tibebu, Joni Turunen
 
 > Draft created 3.10.2022
 > Last updated 9.10.2022
