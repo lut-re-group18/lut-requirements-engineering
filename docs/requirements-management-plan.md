@@ -19,6 +19,7 @@ Document version history is maintained in the table below. The version number is
 | 0.8     | RE team        | Add description of management plan, Reviewed   |
 | 0.9     | PM             | Add info about traceability                    |
 | 1.0     | PM             | Update the plan for final review               |
+| 1.1     | RE team        | Approved the document; added author names      |
 
 
 Please check details about version management from chapter [3.1.1](#311-version-management) of this document.
