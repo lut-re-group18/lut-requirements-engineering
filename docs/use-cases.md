@@ -33,6 +33,8 @@ Use cases are presented via GitHub pages at [https://lut-re-group18.github.io/lu
 
 ### Use Case Diagram
 
+Use case diagram shows the actors and the main use cases of the system.
+
 ![Use Case Diagram](./use-cases/rendered-diagrams/meetcall-use-case-generic.png)
 ### User stories
 
