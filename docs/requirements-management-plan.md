@@ -35,6 +35,7 @@ Please check details about version management from chapter [3.1.1](#311-version-
     - [1.1 Purpose of this document](#11-purpose-of-this-document)
   - [2. Requirements Management overview](#2-requirements-management-overview)
     - [2.1 Organization, responsibilities, interfaces](#21-organization-responsibilities-interfaces)
+      - [Abbreviations used in roles table](#abbreviations-used-in-roles-table)
     - [2.2 Processes and techniques](#22-processes-and-techniques)
     - [2.3 Requirements Definition management](#23-requirements-definition-management)
     - [2.4 Traceability of requirements engineering work](#24-traceability-of-requirements-engineering-work)
@@ -64,13 +65,15 @@ Roles and responsibilities are described in the tables below in no particular or
 
 Work is shared between the team members in agile way where everyone takes responsibility for the whole project. However, there are a few roles that have become more pronounced in terms of responsibility areas. These roles are described in the table below and are assigned to the team members in the beginning of the project.
 
-| Name      | Requirements Management Role |
-|:----------|:--------|
-| N*** H*** | RE + CM |
-| M*** R*** | EL + RE |
-| A*** F*** | RE + SD |
-| S*** T*** | RE + QA |
-| J*** T*** | RE + PM |
+| Name                  | Requirements Management Role |
+|:----------------------|:-----------------------------|
+| Nico Hartto           | RE + CM                      |
+| Mika Raudaskoski      | EL + RE                      |
+| Aleksanteri Fagerholm | RE + SD                      |
+| Simachew Tibebu       | RE + QA                      |
+| Joni Turunen          | RE + PM                      |
+
+#### Abbreviations used in roles table
 
 SD = System Designer
 RE = Requirements Engineer
