@@ -71,6 +71,10 @@ For example `ucs-1-login.md`.
 
 > Check list for **reflecting** on the **work** that has **been done**.
 
+This list is used during the review of the use case specifications. The list is not exhaustive and the list is not in any particular order. List is part of the original template documentation used in the requirements engineering course.
+
+> !!! Should we remove this section entirely?
+
 ### Use Case Diagram
 
 - The introduction section of the use-case diagram provides a clear, concise overview of the purpose and functionality of the system.
