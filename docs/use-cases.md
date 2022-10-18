@@ -45,7 +45,7 @@ Template for user stories start with a identifier **tag** followed by user **rol
 us-19: As [a user persona], I want [to perform this action] so that [I can accomplish this goal].
 ```
 
-Table of use cases are prioritized in the order of importance using the MoSCoW scale. The use case specifications are linked to the user stories in the table.
+Table of use cases are prioritized in the order of importance using the MoSCoW scale. The use case specifications are linked to the user stories in the table. Scale consists of four categories: **M**ust have, **S**hould have, **C**ould have and **W**on't have.
 
 | #   | User Story ID                                                                         | User Story                                                                                                                             | Author | MSCW   |
 | --- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------ |
