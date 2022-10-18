@@ -36,9 +36,10 @@ Use cases are presented via GitHub pages at [https://lut-re-group18.github.io/lu
 Use case diagram shows the actors and the main use cases of the system.
 
 ![Use Case Diagram](./use-cases/rendered-diagrams/meetcall-use-case-generic.png)
+
 ### User stories
 
-Template for user stories start with a identifier tag followed by user role, 'I want' and 'so that' statements.
+Template for user stories start with a identifier **tag** followed by user **role** and a story written in 'I want' and 'so that' statements.
 
 ```markdown
 us-19: As [a user persona], I want [to perform this action] so that [I can accomplish this goal].
