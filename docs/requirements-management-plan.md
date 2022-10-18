@@ -92,13 +92,13 @@ Following table describes the requirements engineering activities and the respon
 |---------------------------|-----------------------------------------|------------------|------------------------|
 | Elicitation activities    | Questionaire to client                  | MR, AF, et al.   | Done                   |
 | Requirements management   | Decision about management process       | JT, et al.       | Updated regularly      |
-| Requirements analysis     | Identifying Use Cases and ASRs          | Whole RE team    | Started                |
-| Requirements specification| Use cases are utilized (done in iterat.)| Whole RE team    | First iteration done   |
-| Requirements validation   |                                         | Whole RE team    |                        |
-| Modeling activities       |                                         |                  |                        |
-| Requirements traceability | Requirements are traced in GitHub       |                  |                        |
-| Requirements verification |                                         |                  |                        |
-| Final deliverables        | Submit final work                       | Whole RE team    |                        |
+| Requirements analysis     | Identifying Use Cases and ASRs          | Whole RE team    | Done                   |
+| Requirements specification| Use cases are utilized (done in iterat.)| Whole RE team    | Done                   |
+| Requirements validation   | Part of SRS work, done in iterations    | Whole RE team    | Done                   |
+| Modeling activities       | Part of SRS documentation work          | Whole RE team    | Done                   |
+| Requirements traceability | Requirements are traced in GitHub       | Whole RE team    | Done                   |
+| Requirements verification | Requirements are worked in GitHub       | Whole RE team    | Done                   |
+| Final deliverables        | Submit final work                       | Whole RE team    | Up for review          |
 
 
 ### 2.3 Requirements Definition management
