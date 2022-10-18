@@ -1,7 +1,7 @@
 # Requirements management plan (MeetCall)
 
 > Document authors:
-> Nxxx Hxxx, Mxxx Rxxx, Axxx Fxxx, Sxxx Txxx, Jxxx Txxx
+> Nico Hartto, Mika Raudaskoski, Aleksanteri Fagerholm, Simachew Tibebu, Joni Turunen
 
 ## Versioning
 
