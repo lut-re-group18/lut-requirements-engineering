@@ -4,8 +4,8 @@
 > Nico Hartto, Mika Raudaskoski, Aleksanteri Fagerholm, Simachew Tibebu, Joni Turunen
 
 > Draft created 3.10.2022
-> Last updated 18.10.2022
-> Version 1.2 (For review) - Change history in GitHub repository
+> Last updated 19.10.2022
+> Version 1.3 (For review) - Change history in GitHub repository
 
 
 ---
@@ -66,36 +66,3 @@ Naming convention for the UCSs is present in the file names `./use-cases/ucs-<nu
 For example `ucs-1-login.md`.
 
 ---
-
-## Use case specific checks
-
-> Check list for **reflecting** on the **work** that has **been done**.
-
-This list is used during the review of the use case specifications. The list is not exhaustive and the list is not in any particular order. List is part of the original template documentation used in the requirements engineering course.
-
-> !!! Should we remove this section entirely?
-
-### Use Case Diagram
-
-- The introduction section of the use-case diagram provides a clear, concise overview of the purpose and functionality of the system.
-- The use case diagram clearly presents the behavior of the system; it is easy to understand what the system does by reviewing the diagram.
-  - No long chains of include and extend relationships, such as when an included use case is extended, or when an extended use case includes other use cases.  These can obscure comprehensibility.
-  - Minimal cross-dependencies where an included, extending, or specialized use case must know about the structure and content of other included, extending or specialized use cases.
-- All use cases have been identified; the use cases collectively account for all required behavior.
-- All functional requirements are mapped to at least one use case.
-- All non-functional requirements that must be satisfied by specific use cases have been mapped to those use cases.
-- The use-case diagram contains no extra system behavior; all use cases can be justified by tracing them back to a functional requirement.
-- All relationships between use cases are required (i.e. there is justification for all include-, extend-, and generalization-relationships).
-
-### Actors
-
-- Have you found all the actors? That is, have you accounted for and diagramed all roles in the system's environment? Although you should check this, you cannot be sure until you have found and described all the use cases.
-- Is each actor involved with at least one use case? Remove any actors not mentioned in the use-case descriptions, or any actors without communicates-associations with a use case. However, an actor mentioned in a use-case description is likely to have a communicates-association with that particular use case.
-- Can you name at least two people who would be able to perform as a particular actor? If not, check if the role the actor diagrams is part of another one. If so, you should merge the actor with another actor.
-
-### Use Case Specifications
-
-- Do any actors play similar roles in relation to the system? If so, you should merge them into a single actor. The communicates-associations and use-case descriptions show how the actors and the system interrelate.
-- Do two actors play the same role in relation to a use case? If so, you should use actor-generalizations to diagram their shared behavior.
-- Will a particular actor use the system in several (completely different) ways or does he have several (completely different) purposes for using the use case? If so, you should probably have more than one actor.
-- Do the actors have intuitive and descriptive names? Can both users and customers understand the names? It is important that actor names correspond to their roles. If not, change them.
