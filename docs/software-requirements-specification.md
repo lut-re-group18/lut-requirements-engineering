@@ -92,6 +92,7 @@ title: |
 | RE Team          | 08.10. | Deciding content, summary, rotational work  |  0.2        |
 | Mika Raudaskoski | 07.10. | Initial document created                    |  0.1        |
 
+---
 # Introduction
 
 ## Purpose 
