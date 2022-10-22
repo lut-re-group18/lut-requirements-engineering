@@ -10,7 +10,7 @@
 | **Related User Story**  |                                                                  |
 | **End Objective**       | Participants get informed that they are recorded                 |
 | **Creator & time**      | Mika Raudaskoski 4.10.2022                                       |
-| **Last Updater & time** |                                                                  |
+| **Last Updater & time** | Nico Hartto 22.10.2022                                           |
 | **Approver & time**     |                                                                  |
 | **User/Actor**          | Meeting host and participants                                    |
 | **Business Owner Name** |                                                                  |
@@ -58,4 +58,4 @@ When user accepts that he/she is being recorded recordings can be saved normally
 
 ## Other Notes (Assumptions, Issues, etc.)
 
-Any special considerations that need to be kept in mind for this use case only; identify the type of item with a tag like. For example, [Assumption] or [Issue].
+n/a
