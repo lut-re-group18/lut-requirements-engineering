@@ -83,4 +83,5 @@ After generating the markdown table, copy the table to the `docs/traceability.md
 
 ---
 
-[Back to main documentation](../README.md)
+- [Back to main documentation](../README.md)
+- [Back to requirements management plan](requirements-management-plan.md)
