@@ -1,6 +1,6 @@
 # Use Case Specifications template
 
-![ucs-5](rendered-diagrams/ucs-10.png)
+![ucs-10](rendered-diagrams/ucs-10.png)
 
 ## Use Case Identification and History
 
@@ -10,7 +10,7 @@
 | **Related User Story**  |                                                                                               |
 | **End Objective**       | Ability to link 3rd party accounts and see the synchronised calendar view                     |
 | **Creator & time**      | Aleksanteri Fagerholm 12.10.2022                                                              |
-| **Last Updater & time** |                                                                                               |
+| **Last Updater & time** | Nico Hartto 22.10.2022                                                                        |
 | **Approver & time**     |                                                                                               |
 | **User/Actor**          | User                                                                                          |
 | **Business Owner Name** |                                                                                               |
