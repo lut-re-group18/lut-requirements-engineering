@@ -6,7 +6,9 @@
 
 - [Requirements Management Plan](docs/requirements-management-plan.md)
 - [Vision & Scope](docs/vision-and-scope.md)
-- [Use Case Docs](docs/use-cases.md)
+- [Use Case Documentation](docs/use-cases.md)
+- [Software Requirements Specification (SRS)](docs/software-requirements-specification.md)
+- [Sustainability Analysis of Requirements Specification](docs/sustainability-analysis.md)
 - [GitHub Repository of the Project](https://github.com/lut-re-group18/lut-requirements-engineering)
 
 ## How to contribute
@@ -22,16 +24,9 @@ How can I contribute to this project?
 - [GitHub Repository of the Project](https://github.com/lut-re-group18/lut-requirements-engineering/)
 - [GitHub Pages](https://lut-re-group18.github.io/lut-requirements-engineering/)
 
-### Test MD to PDF conversion (localy)
+---
 
-You need Docker installed on your machine. Then run the following command:
+## Technical guides for managing the project
 
-```bash
-docker run --rm \
-       --volume "$(pwd):/data" \
-       --user $(id -u):$(id -g) \
-       pandoc/latex:2.19 \
-        -V geometry:"top=3cm, bottom=3cm, left=2.5cm, right=2.5cm" \
-        --output=result.pdf \
-        "/data/docs/requirements-management-plan.md"
-```
+- [Test MD to PDF conversion (localy)](test-md-to-pdf.md)
+- [How to generate deliverables from GitHub](docs/generate-appendices.md)
