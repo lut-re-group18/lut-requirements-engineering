@@ -317,3 +317,7 @@ Due to budget and people constraints, service should operate on
 serverless offerings so that operational overhead is minimized. This
 also ensures good baseline availability. Due to budget constraints
 active-active model is not possible.
+
+---
+
+[Return to main documentation page](../README.md)
