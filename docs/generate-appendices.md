@@ -79,3 +79,9 @@ Use [https://www.tablesgenerator.com/markdown_tables](https://www.tablesgenerato
 #### Update traceability table
 
 After generating the markdown table, copy the table to the `docs/traceability.md` file.
+
+
+---
+
+- [Back to main documentation](../README.md)
+- [Back to requirements management plan](requirements-management-plan.md)
