@@ -78,3 +78,7 @@ Figure 1 - Sustainability Goal Model
 
 ![Requirements Sustainability Analysis Radar Chart](./imgs/radar.jpg)
 Figure 2 - Analysis radar chart
+
+---
+
+[Return to main documentation page](../README.md)
