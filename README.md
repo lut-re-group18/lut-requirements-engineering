@@ -24,7 +24,7 @@ In no particular order:
 - Fork the project, make changes, and submit a pull request!
   - *This is the way.*
 
-### Links to GitHub repositgory and the GitHub Pages
+### Links to GitHub repository and the GitHub Pages
 
 - [GitHub Repository of the Project](https://github.com/lut-re-group18/lut-requirements-engineering/)
 - [GitHub Pages](https://lut-re-group18.github.io/lut-requirements-engineering/)
