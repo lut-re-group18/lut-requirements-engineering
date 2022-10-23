@@ -13,7 +13,13 @@
 
 ## How to contribute
 
-How can I contribute to this project?
+## Documents
+
+1. [Vision & Scope](docs/vision-and-scope.md)
+2. [Use Case Documentation](docs/use-cases.md)
+3. [Software Requirements Specification (SRS)](docs/software-requirements-specification.md)
+4. [Sustainability Analysis of Requirements Specification](docs/sustainability-analysis.md)
+5. [Requirements Management Plan](docs/requirements-management-plan.md)
 
 - [Open issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues) to notify of errors in project, propose new features, or other improvements.
 - Fork the project, make changes, and submit a pull request!
