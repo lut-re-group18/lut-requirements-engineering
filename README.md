@@ -20,9 +20,6 @@ In no particular order:
 4. [Sustainability Analysis of Requirements Specification](docs/sustainability-analysis.md)
 5. [Requirements Management Plan](docs/requirements-management-plan.md)
 
-- [Open issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues) to notify of errors in project, propose new features, or other improvements.
-- Fork the project, make changes, and submit a pull request!
-  - *This is the way.*
 
 ### Links to GitHub repository and the GitHub Pages
 
@@ -31,7 +28,20 @@ In no particular order:
 
 ---
 
-## Technical guides for managing the project
+
+## Other Documents and info
+
+Repository is freezed 23.10.2022 and no longer maintained. The project was done in 2022.
+
+### Technical guides for managing the project
 
 - [Test MD to PDF conversion (localy)](test-md-to-pdf.md)
 - [How to generate deliverables from GitHub](docs/generate-appendices.md)
+
+### How to contribute
+
+How can I contribute to this project?
+
+- [Open issues](https://github.com/lut-re-group18/lut-requirements-engineering/issues) to notify of errors in project, propose new features, or other improvements.
+- Fork the project, make changes, and submit a pull request!
+  - *This is the way.*
