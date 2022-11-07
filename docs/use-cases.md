@@ -67,6 +67,7 @@ Table of use cases are prioritized in the order of importance using the MoSCoW s
 | 07  | [us-8](#use-case-usc-8-host-control-participant-audio-md)                             | As a **host**, I want to control a meeting participant's audio so that I can moderate the meeting.                                     | ST     | Should |
 | 08  | [us-5](#use-case-ucs-5-host-viewing-recording-of-meeting-md)                          | As a **host**, I want to view the recording from the meeting, so that I can easily review what was said and agreed upon.               | NH, AF | Should |
 | 09  | [us-7](#use-case-usc-7-platform-provider-remove-recordings-after-retention-period-md) | As a **platform provider**, I want remove recordings after data retention period, so that no data is unnecessarily retained (GDPR).    | NH     | Could  |
+| 10  | [us-10](#use-case-ucs-10-linking-and-synchronising-calendar-md) | As a **user**, As a user I want to link and synchronise my existing calendar events.    | AF     | Must  |
 
 ### Use Case Specification
 
